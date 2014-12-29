@@ -1,0 +1,171 @@
+Thu Oct  2 22:42:12 UTC 2014
+Starting Model Build Process with Classifier : 2 and Test /poc/data/eucalyptus.arff 
+FOUND weka_j48 for the 2 requested...evoking function
+
+J48 pruned tree
+------------------
+
+Year <= 1983
+|   Vig <= 2.3
+|   |   Vig <= 1.5: none (69.0/7.0)
+|   |   Vig > 1.5: low (80.0/31.0)
+|   Vig > 2.3
+|   |   Surv <= 5: none (19.8/0.76)
+|   |   Surv > 5
+|   |   |   Vig <= 3
+|   |   |   |   Ht <= 10.31
+|   |   |   |   |   Sp = co: average (8.0/1.0)
+|   |   |   |   |   Sp = fr: good (6.96/3.0)
+|   |   |   |   |   Sp = ma: low (2.0/1.0)
+|   |   |   |   |   Sp = nd
+|   |   |   |   |   |   Surv <= 80: average (12.55/3.55)
+|   |   |   |   |   |   Surv > 80: good (9.41/2.0)
+|   |   |   |   |   Sp = ni
+|   |   |   |   |   |   Rainfall <= 1000: good (2.0)
+|   |   |   |   |   |   Rainfall > 1000
+|   |   |   |   |   |   |   PMCno <= 2553: average (2.0)
+|   |   |   |   |   |   |   PMCno > 2553: low (2.0)
+|   |   |   |   |   Sp = ob
+|   |   |   |   |   |   Stem_Fm <= 3.7: average (2.0)
+|   |   |   |   |   |   Stem_Fm > 3.7: good (2.0)
+|   |   |   |   |   Sp = ov: average (16.0/6.0)
+|   |   |   |   |   Sp = pu
+|   |   |   |   |   |   Brnch_Fm <= 2.7: average (4.0)
+|   |   |   |   |   |   Brnch_Fm > 2.7: good (3.0)
+|   |   |   |   |   Sp = rd
+|   |   |   |   |   |   Ins_res <= 2.6: average (7.0/1.0)
+|   |   |   |   |   |   Ins_res > 2.6: low (3.96)
+|   |   |   |   |   Sp = si: low (2.0/1.0)
+|   |   |   |   |   Sp = mn: average (0.0)
+|   |   |   |   |   Sp = ag: low (2.0)
+|   |   |   |   |   Sp = bxs
+|   |   |   |   |   |   Vig <= 2.9: low (3.0)
+|   |   |   |   |   |   Vig > 2.9: average (4.0)
+|   |   |   |   |   Sp = br
+|   |   |   |   |   |   Crown_Fm <= 3.4: low (5.0)
+|   |   |   |   |   |   Crown_Fm > 3.4
+|   |   |   |   |   |   |   PMCno <= 1112: low (3.0/2.0)
+|   |   |   |   |   |   |   PMCno > 1112: average (4.0)
+|   |   |   |   |   Sp = el: low (3.0)
+|   |   |   |   |   Sp = fa
+|   |   |   |   |   |   PMCno <= 1609: good (3.0/1.0)
+|   |   |   |   |   |   PMCno > 1609: average (8.0/2.0)
+|   |   |   |   |   Sp = jo: low (3.0)
+|   |   |   |   |   Sp = ka
+|   |   |   |   |   |   Ht <= 4.1: none (2.36)
+|   |   |   |   |   |   Ht > 4.1: low (2.36/0.36)
+|   |   |   |   |   Sp = re: average (15.0/4.0)
+|   |   |   |   |   Sp = sm: low (3.0)
+|   |   |   |   |   Sp = ro: none (2.0/1.0)
+|   |   |   |   |   Sp = nc: low (2.0/1.0)
+|   |   |   |   |   Sp = am
+|   |   |   |   |   |   Frosts <= -3: average (8.0/2.0)
+|   |   |   |   |   |   Frosts > -3: good (2.0)
+|   |   |   |   |   Sp = cr: low (5.0)
+|   |   |   |   |   Sp = pa: none (1.0)
+|   |   |   |   |   Sp = ra: average (0.0)
+|   |   |   |   |   Sp = te: average (0.0)
+|   |   |   |   Ht > 10.31: good (56.21/27.24)
+|   |   |   Vig > 3
+|   |   |   |   Crown_Fm <= 3.2
+|   |   |   |   |   Ht <= 6.81
+|   |   |   |   |   |   PMCno <= 2575: average (7.0/1.0)
+|   |   |   |   |   |   PMCno > 2575: low (3.0)
+|   |   |   |   |   Ht > 6.81
+|   |   |   |   |   |   Stem_Fm <= 2.7
+|   |   |   |   |   |   |   Sp = co: good (0.0)
+|   |   |   |   |   |   |   Sp = fr
+|   |   |   |   |   |   |   |   Rep <= 1: average (3.0)
+|   |   |   |   |   |   |   |   Rep > 1: good (5.0/1.0)
+|   |   |   |   |   |   |   Sp = ma: good (0.0)
+|   |   |   |   |   |   |   Sp = nd: good (1.0)
+|   |   |   |   |   |   |   Sp = ni: good (6.96/1.96)
+|   |   |   |   |   |   |   Sp = ob
+|   |   |   |   |   |   |   |   PMCno <= 1978: good (3.0)
+|   |   |   |   |   |   |   |   PMCno > 1978: average (3.0)
+|   |   |   |   |   |   |   Sp = ov: average (1.0)
+|   |   |   |   |   |   |   Sp = pu: average (1.0)
+|   |   |   |   |   |   |   Sp = rd: good (0.0)
+|   |   |   |   |   |   |   Sp = si: good (0.0)
+|   |   |   |   |   |   |   Sp = mn: good (0.0)
+|   |   |   |   |   |   |   Sp = ag: good (0.0)
+|   |   |   |   |   |   |   Sp = bxs: good (0.0)
+|   |   |   |   |   |   |   Sp = br: good (0.0)
+|   |   |   |   |   |   |   Sp = el: good (0.0)
+|   |   |   |   |   |   |   Sp = fa
+|   |   |   |   |   |   |   |   Rainfall <= 1080: good (3.0/1.0)
+|   |   |   |   |   |   |   |   Rainfall > 1080
+|   |   |   |   |   |   |   |   |   Ht <= 12.82: average (2.0)
+|   |   |   |   |   |   |   |   |   Ht > 12.82: good (2.0)
+|   |   |   |   |   |   |   Sp = jo: good (0.0)
+|   |   |   |   |   |   |   Sp = ka: good (0.0)
+|   |   |   |   |   |   |   Sp = re: best (3.0/1.0)
+|   |   |   |   |   |   |   Sp = sm: good (0.0)
+|   |   |   |   |   |   |   Sp = ro: good (0.0)
+|   |   |   |   |   |   |   Sp = nc: good (0.0)
+|   |   |   |   |   |   |   Sp = am: good (2.0)
+|   |   |   |   |   |   |   Sp = cr: average (4.0/1.0)
+|   |   |   |   |   |   |   Sp = pa: best (1.0)
+|   |   |   |   |   |   |   Sp = ra: good (0.0)
+|   |   |   |   |   |   |   Sp = te: good (0.0)
+|   |   |   |   |   |   Stem_Fm > 2.7: good (65.81/17.92)
+|   |   |   |   Crown_Fm > 3.2
+|   |   |   |   |   Vig <= 4.3: good (122.73/46.92)
+|   |   |   |   |   Vig > 4.3
+|   |   |   |   |   |   Stem_Fm <= 3.4: good (5.0/1.0)
+|   |   |   |   |   |   Stem_Fm > 3.4: best (31.89/1.0)
+Year > 1983: none (69.0)
+
+Number of Leaves  : 	81
+
+Size of the tree : 	111
+
+
+Time taken to build model: 0.81 seconds
+Time taken to test model on training data: 0.11 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         565               76.7663 %
+Incorrectly Classified Instances       171               23.2337 %
+Kappa statistic                          0.6977
+Mean absolute error                      0.1295
+Root mean squared error                  0.2536
+Relative absolute error                 41.3507 %
+Root relative squared error             64.0749 %
+Total Number of Instances              736     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   <-- classified as
+ 155  25   0   0   0 |   a = none
+   8  88   8   3   0 |   b = low
+   0   8  90  31   1 |   c = average
+   0   2  13 198   1 |   d = good
+   0   1   1  69  34 |   e = best
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         470               63.8587 %
+Incorrectly Classified Instances       266               36.1413 %
+Kappa statistic                          0.5319
+Mean absolute error                      0.1731
+Root mean squared error                  0.3278
+Relative absolute error                 55.2466 %
+Root relative squared error             82.8235 %
+Total Number of Instances              736     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   <-- classified as
+ 151  28   1   0   0 |   a = none
+  16  64  18   9   0 |   b = low
+   0  21  55  52   2 |   c = average
+   0   3  36 160  15 |   d = good
+   0   0   6  59  40 |   e = best
+
+ 2_20141002_2242_2893.mdl has been created for request

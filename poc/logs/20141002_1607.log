@@ -1,0 +1,12 @@
+Thu Oct  2 16:07:20 UTC 2014
+Starting Model Build Process with Classifier : 1 and Test ERA.arff 
+FOUND weka_svm for the 1 requested...evoking function
+weka.core.UnsupportedAttributeTypeException: weka.classifiers.functions.SMO: Cannot handle numeric class!
+	at weka.core.Capabilities.test(Capabilities.java:954)
+	at weka.core.Capabilities.test(Capabilities.java:1110)
+	at weka.core.Capabilities.test(Capabilities.java:1023)
+	at weka.core.Capabilities.testWithFail(Capabilities.java:1302)
+	at weka.classifiers.functions.SMO.buildClassifier(SMO.java:1251)
+	at weka.classifiers.Evaluation.evaluateModel(Evaluation.java:1149)
+	at weka.classifiers.Classifier.runClassifier(Classifier.java:315)
+	at weka.classifiers.functions.SMO.main(SMO.java:2138)

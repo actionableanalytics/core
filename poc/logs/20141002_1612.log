@@ -1,0 +1,573 @@
+Thu Oct  2 16:12:34 UTC 2014
+Starting Model Build Process with Classifier : 1 and Test ERA.arff 
+FOUND weka_svm for the 1 requested...evoking function
+
+Options: -V 10 -D 
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: 1, 2
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.7524 * (normalized) in1
+ +       0.7029 * (normalized) in2
+ +       1.2588 * (normalized) in3
+ +       0.1172 * (normalized) in4
+ -       0.3088
+
+Number of kernel evaluations: 3815 (68.834% cached)
+
+Classifier for classes: 1, 3
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         2.3296 * (normalized) in1
+ +       2.367  * (normalized) in2
+ +       1.3497 * (normalized) in3
+ +       0.1986 * (normalized) in4
+ -       2.0358
+
+Number of kernel evaluations: 5494 (68.88% cached)
+
+Classifier for classes: 1, 4
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         2.9173 * (normalized) in1
+ +       2.1473 * (normalized) in2
+ +       1.0786 * (normalized) in3
+ +       0.4851 * (normalized) in4
+ -       2.416 
+
+Number of kernel evaluations: 5709 (72.875% cached)
+
+Classifier for classes: 1, 5
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         2.5138 * (normalized) in1
+ +       2.657  * (normalized) in2
+ +       1.2026 * (normalized) in3
+ +       0.7913 * (normalized) in4
+ -       2.7103
+
+Number of kernel evaluations: 5641 (74.931% cached)
+
+Classifier for classes: 1, 6
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         2.2272 * (normalized) in1
+ +       1.8587 * (normalized) in2
+ +       0.5231 * (normalized) in3
+ +       0.2878 * (normalized) in4
+ -       2.0306
+
+Number of kernel evaluations: 4468 (72.804% cached)
+
+Classifier for classes: 1, 7
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         2.8242 * (normalized) in1
+ +       2.266  * (normalized) in2
+ +      -0.2023 * (normalized) in3
+ +       0.8602 * (normalized) in4
+ -       2.7886
+
+Number of kernel evaluations: 2679 (75.368% cached)
+
+Classifier for classes: 1, 8
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         2.3333 * (normalized) in1
+ +       2.2913 * (normalized) in2
+ +       1.3189 * (normalized) in3
+ +       0.1759 * (normalized) in4
+ -       3.9414
+
+Number of kernel evaluations: 863 (68.641% cached)
+
+Classifier for classes: 1, 9
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         1.2924 * (normalized) in1
+ +       1.817  * (normalized) in2
+ +       1.098  * (normalized) in3
+ +       0.9837 * (normalized) in4
+ -       3.8024
+
+Number of kernel evaluations: 457 (79.725% cached)
+
+Classifier for classes: 2, 3
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         2.194  * (normalized) in1
+ +       1.7307 * (normalized) in2
+ +       0.0429 * (normalized) in3
+ +       0.0535 * (normalized) in4
+ -       1.4581
+
+Number of kernel evaluations: 6101 (80.748% cached)
+
+Classifier for classes: 2, 4
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         2.4641 * (normalized) in1
+ +       2.0459 * (normalized) in2
+ +       0.3402 * (normalized) in3
+ +       0.1092 * (normalized) in4
+ -       1.9298
+
+Number of kernel evaluations: 7071 (73.314% cached)
+
+Classifier for classes: 2, 5
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         1.6412 * (normalized) in1
+ +       3.1054 * (normalized) in2
+ +       1.3822 * (normalized) in3
+ +       1.0282 * (normalized) in4
+ -       3.2782
+
+Number of kernel evaluations: 6254 (75.274% cached)
+
+Classifier for classes: 2, 6
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         2.0295 * (normalized) in1
+ +       3.3018 * (normalized) in2
+ +       0.9493 * (normalized) in3
+ +       0.5503 * (normalized) in4
+ -       3.4678
+
+Number of kernel evaluations: 5220 (67.968% cached)
+
+Classifier for classes: 2, 7
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         2.4796 * (normalized) in1
+ +       3.4903 * (normalized) in2
+ +       0.5249 * (normalized) in3
+ +       1.0278 * (normalized) in4
+ -       4.2138
+
+Number of kernel evaluations: 3504 (76.504% cached)
+
+Classifier for classes: 2, 8
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         1.945  * (normalized) in1
+ +       2.8198 * (normalized) in2
+ +       1.9162 * (normalized) in3
+ +       0.4001 * (normalized) in4
+ -       4.6496
+
+Number of kernel evaluations: 1392 (69.135% cached)
+
+Classifier for classes: 2, 9
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         1.1016 * (normalized) in1
+ +       1.925  * (normalized) in2
+ +       1.2756 * (normalized) in3
+ +       1.3245 * (normalized) in4
+ -       4.2141
+
+Number of kernel evaluations: 503 (85.232% cached)
+
+Classifier for classes: 3, 4
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         1.4646 * (normalized) in1
+ +       2.5894 * (normalized) in2
+ +       1.095  * (normalized) in3
+ +       0.9112 * (normalized) in4
+ -       2.8757
+
+Number of kernel evaluations: 7336 (65.179% cached)
+
+Classifier for classes: 3, 5
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         1.3213 * (normalized) in1
+ +       3.2105 * (normalized) in2
+ +       1.7088 * (normalized) in3
+ +       0.4875 * (normalized) in4
+ -       3.3398
+
+Number of kernel evaluations: 7666 (81.491% cached)
+
+Classifier for classes: 3, 6
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.7992 * (normalized) in1
+ +       3.0891 * (normalized) in2
+ +       0.8097 * (normalized) in3
+ +       0.3015 * (normalized) in4
+ -       2.9071
+
+Number of kernel evaluations: 7033 (69.542% cached)
+
+Classifier for classes: 3, 7
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         1.8801 * (normalized) in1
+ +       3.2866 * (normalized) in2
+ +       1.082  * (normalized) in3
+ +      -0.2961 * (normalized) in4
+ -       3.8762
+
+Number of kernel evaluations: 4944 (70.531% cached)
+
+Classifier for classes: 3, 8
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         1.5296 * (normalized) in1
+ +       2.8266 * (normalized) in2
+ +       1.6868 * (normalized) in3
+ +      -0.2704 * (normalized) in4
+ -       4.3378
+
+Number of kernel evaluations: 1504 (75.091% cached)
+
+Classifier for classes: 3, 9
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         1.2425 * (normalized) in1
+ +       2.426  * (normalized) in2
+ +       2.0459 * (normalized) in3
+ +       1.0358 * (normalized) in4
+ -       5.2302
+
+Number of kernel evaluations: 804 (67.049% cached)
+
+Classifier for classes: 4, 5
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.0612 * (normalized) in1
+ +       2.9941 * (normalized) in2
+ +       1.2899 * (normalized) in3
+ +       0.0721 * (normalized) in4
+ -       2.4559
+
+Number of kernel evaluations: 6520 (60.108% cached)
+
+Classifier for classes: 4, 6
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.0009 * (normalized) in1
+ +       0.0022 * (normalized) in2
+ +       0.0009 * (normalized) in3
+ +       0.001  * (normalized) in4
+ -       1.0023
+
+Number of kernel evaluations: 6052 (69.698% cached)
+
+Classifier for classes: 4, 7
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         1.756  * (normalized) in1
+ +       2.732  * (normalized) in2
+ +       1.4001 * (normalized) in3
+ +      -0.2384 * (normalized) in4
+ -       3.9994
+
+Number of kernel evaluations: 4715 (68.051% cached)
+
+Classifier for classes: 4, 8
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         1.4201 * (normalized) in1
+ +       2.0206 * (normalized) in2
+ +       2.2444 * (normalized) in3
+ +       0.1505 * (normalized) in4
+ -       4.5903
+
+Number of kernel evaluations: 1469 (74.264% cached)
+
+Classifier for classes: 4, 9
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         1.7813 * (normalized) in1
+ +       2.6146 * (normalized) in2
+ +       1.8027 * (normalized) in3
+ +       0.936  * (normalized) in4
+ -       5.5733
+
+Number of kernel evaluations: 1266 (66.596% cached)
+
+Classifier for classes: 5, 6
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.0003 * (normalized) in1
+ +      -0.0005 * (normalized) in2
+ +      -0.0002 * (normalized) in3
+ +      -0.0008 * (normalized) in4
+ -       0.9991
+
+Number of kernel evaluations: 4503 (60.051% cached)
+
+Classifier for classes: 5, 7
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         1.5994 * (normalized) in1
+ +       1.9672 * (normalized) in2
+ +       1.1535 * (normalized) in3
+ +       0.3049 * (normalized) in4
+ -       3.6706
+
+Number of kernel evaluations: 4072 (75.06% cached)
+
+Classifier for classes: 5, 8
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         1.2666 * (normalized) in1
+ +       2.0475 * (normalized) in2
+ +       1.8226 * (normalized) in3
+ +       0.4173 * (normalized) in4
+ -       4.6658
+
+Number of kernel evaluations: 1961 (64.869% cached)
+
+Classifier for classes: 5, 9
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         1.0756 * (normalized) in1
+ +       2.4608 * (normalized) in2
+ +       2.0018 * (normalized) in3
+ +       1.2341 * (normalized) in4
+ -       5.2441
+
+Number of kernel evaluations: 1403 (68.2% cached)
+
+Classifier for classes: 6, 7
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         1.0124 * (normalized) in1
+ +       1.6841 * (normalized) in2
+ +       1.5939 * (normalized) in3
+ +      -0.255  * (normalized) in4
+ -       2.7252
+
+Number of kernel evaluations: 2080 (64.298% cached)
+
+Classifier for classes: 6, 8
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.2197 * (normalized) in1
+ +       0.3605 * (normalized) in2
+ +       0.3491 * (normalized) in3
+ +       0.0358 * (normalized) in4
+ -       1.6066
+
+Number of kernel evaluations: 1937 (73.079% cached)
+
+Classifier for classes: 6, 9
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         1.6639 * (normalized) in1
+ +       2.4487 * (normalized) in2
+ +       2.0167 * (normalized) in3
+ +       1.6555 * (normalized) in4
+ -       6.2606
+
+Number of kernel evaluations: 477 (85.854% cached)
+
+Classifier for classes: 7, 8
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.001  * (normalized) in1
+ +      -0.0004 * (normalized) in2
+ +       0.0005 * (normalized) in3
+ +       0.0001 * (normalized) in4
+ -       0.9996
+
+Number of kernel evaluations: 1384 (55.355% cached)
+
+Classifier for classes: 7, 9
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.8368 * (normalized) in1
+ +       2.8866 * (normalized) in2
+ +       1.4171 * (normalized) in3
+ +       2.2167 * (normalized) in4
+ -       5.7392
+
+Number of kernel evaluations: 511 (68.241% cached)
+
+Classifier for classes: 8, 9
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.9246 * (normalized) in1
+ +       2.1202 * (normalized) in2
+ +       0.9727 * (normalized) in3
+ +       2.3485 * (normalized) in4
+ -       4.9112
+
+Number of kernel evaluations: 337 (66.199% cached)
+
+
+
+Time taken to build model: 2.45 seconds
+Time taken to test model on training data: 0.18 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         284               28.4    %
+Incorrectly Classified Instances       716               71.6    %
+Kappa statistic                          0.1513
+Mean absolute error                      0.1846
+Root mean squared error                  0.3016
+Relative absolute error                 96.4498 %
+Root relative squared error             97.5058 %
+Total Number of Instances             1000     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i   <-- classified as
+  0 57 20  3 11  0  1  0  0 |  a = 1
+  0 63 40 20 18  0  1  0  0 |  b = 2
+  0 47 71 25 35  0  2  0  1 |  c = 3
+  0 18 51 52 48  0  3  0  0 |  d = 4
+  0 14 39 34 68  0  3  0  0 |  e = 5
+  0 16 21 23 50  0  6  0  2 |  f = 6
+  0  5  6 18 40  0 16  0  3 |  g = 7
+  0  0  1  3 12  0 13  0  2 |  h = 8
+  0  0  0  0  2  0  2  0 14 |  i = 9
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         260               26      %
+Incorrectly Classified Instances       740               74      %
+Kappa statistic                          0.1223
+Mean absolute error                      0.1851
+Root mean squared error                  0.3023
+Relative absolute error                 96.6741 %
+Root relative squared error             97.733  %
+Total Number of Instances             1000     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i   <-- classified as
+  6 51 20  4 10  0  1  0  0 |  a = 1
+  1 62 37 25 16  0  1  0  0 |  b = 2
+  1 46 58 43 30  0  2  0  1 |  c = 3
+  0 18 53 49 51  0  1  0  0 |  d = 4
+  0 15 31 45 64  0  3  0  0 |  e = 5
+  2 14 19 28 47  0  6  0  2 |  f = 6
+  1  4  7 17 47  0 10  0  2 |  g = 7
+  0  0  0  4 14  0 11  0  2 |  h = 8
+  0  0  0  0  3  0  4  0 11 |  i = 9
+
+ 1_20141002_1612_1772.mdl has been created for request

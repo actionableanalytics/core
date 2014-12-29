@@ -1,0 +1,24 @@
+
+
+=== Predictions on test data ===
+
+ inst#     actual  predicted error prediction
+     1 1:diaporth 1:diaporth       0.952 
+     2 1:diaporth 1:diaporth       0.952 
+     3 1:diaporth 1:diaporth       0.952 
+     4 1:diaporth 1:diaporth       0.952 
+     5 1:diaporth 1:diaporth       0.952 
+     6 1:diaporth 1:diaporth       0.952 
+     7 1:diaporth 1:diaporth       0.952 
+     8 1:diaporth 1:diaporth       0.952 
+     9 1:diaporth 1:diaporth       0.952 
+    10 1:diaporth 1:diaporth       0.952 
+    11 2:charcoal 2:charcoal       0.9 
+    12 2:charcoal 2:charcoal       0.9 
+    13 2:charcoal 2:charcoal       0.9 
+    14 2:charcoal 2:charcoal       0.9 
+    15 2:charcoal 2:charcoal       0.9 
+    16 2:charcoal 2:charcoal       0.9 
+    17        1:? 2:charcoal       0.9 
+    18        1:? 2:charcoal       0.9 
+

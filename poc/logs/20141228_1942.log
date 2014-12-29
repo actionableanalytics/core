@@ -1,0 +1,94 @@
+Sun Dec 28 19:42:36 NPT 2014
+Starting Model Build Process with Classifier : 5 and Test poc/data/soybean.arff 
+FOUND weka_BayesNet for the 5 requested...evoking function
+Warning: filling in missing values in data set
+
+Bayes Network Classifier
+Using ADTree
+#attributes=36 #classindex=35
+Network structure (nodes followed by parents)
+date(7): class 
+plant-stand(2): class 
+precip(3): class 
+temp(3): class 
+hail(2): class 
+crop-hist(4): class 
+area-damaged(4): class 
+severity(3): class 
+seed-tmt(3): class 
+germination(3): class 
+plant-growth(2): class 
+leaves(2): class 
+leafspots-halo(3): class 
+leafspots-marg(3): class 
+leafspot-size(3): class 
+leaf-shread(2): class 
+leaf-malf(2): class 
+leaf-mild(3): class 
+stem(2): class 
+lodging(2): class 
+stem-cankers(4): class 
+canker-lesion(4): class 
+fruiting-bodies(2): class 
+external-decay(3): class 
+mycelium(2): class 
+int-discolor(3): class 
+sclerotia(2): class 
+fruit-pods(4): class 
+fruit-spots(5): class 
+seed(2): class 
+mold-growth(2): class 
+seed-discolor(2): class 
+seed-size(2): class 
+shriveling(2): class 
+roots(3): class 
+class(19): 
+LogScore Bayes: -11737.951400856582
+LogScore BDeu: -16454.236429604334
+LogScore MDL: -15986.964129190652
+LogScore ENTROPY: -11898.115099669545
+LogScore AIC: -13151.115099669549
+
+
+Time taken to build model: 1.44 seconds
+Time taken to test model on training data: 0.14 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         639               93.5578 %
+Incorrectly Classified Instances        44                6.4422 %
+Kappa statistic                          0.9295
+Mean absolute error                      0.0074
+Root mean squared error                  0.0761
+Relative absolute error                  7.6747 %
+Root relative squared error             34.7275 %
+Total Number of Instances              683     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s   <-- classified as
+ 20  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  a = diaporthe-stem-canker
+  0 20  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  b = charcoal-rot
+  0  0 20  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  c = rhizoctonia-root-rot
+  0  0  2 86  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  d = phytophthora-rot
+  0  0  0  0 44  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  e = brown-stem-rot
+  0  0  0  0  0 20  0  0  0  0  0  0  0  0  0  0  0  0  0 |  f = powdery-mildew
+  0  0  0  0  0  0 20  0  0  0  0  0  0  0  0  0  0  0  0 |  g = downy-mildew
+  0  0  0  0  0  0  0 78  0  0  0  0  7  3  4  0  0  0  0 |  h = brown-spot
+  0  0  0  0  0  0  0  0 20  0  0  0  0  0  0  0  0  0  0 |  i = bacterial-blight
+  0  0  0  0  0  0  0  0  1 19  0  0  0  0  0  0  0  0  0 |  j = bacterial-pustule
+  0  0  0  0  0  0  0  0  0  0 20  0  0  0  0  0  0  0  0 |  k = purple-seed-stain
+  0  0  0  0  0  0  0  0  0  0  0 44  0  0  0  0  0  0  0 |  l = anthracnose
+  0  0  0  0  0  0  0  2  0  0  0  0 18  0  0  0  0  0  0 |  m = phyllosticta-leaf-spot
+  0  0  0  0  0  0  0  0  0  0  0  0  0 91  0  0  0  0  0 |  n = alternarialeaf-spot
+  0  0  0  0  0  0  0  3  0  0  0  0  0 21 66  1  0  0  0 |  o = frog-eye-leaf-spot
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 15  0  0  0 |  p = diaporthe-pod-&-stem-blight
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 14  0  0 |  q = cyst-nematode
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 16  0 |  r = 2-4-d-injury
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  8 |  s = herbicide-injury
+
+ 2_20141228_1942_21151.mld has been created for request
+poc/model//2_20141228_1942_21151.meta
+poc/model//2_20141228_1942_21151.meta : Metadata for model has been created
+poc/model//2_20141228_1942_21151.meta : Metadata for model has been created

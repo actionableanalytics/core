@@ -1,0 +1,59 @@
+Thu Oct  2 22:47:13 UTC 2014
+Starting Model Build Process with Classifier : 3 and Test /poc/data/eucalyptus.arff 
+FOUND weka_random_forest for the 3 requested...evoking function
+
+Options: -D 
+
+Random forest of 10 trees, each constructed while considering 5 random features.
+Out of bag error: 0.4579
+
+
+
+Time taken to build model: 0.68 seconds
+Time taken to test model on training data: 0.12 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         719               97.6902 %
+Incorrectly Classified Instances        17                2.3098 %
+Kappa statistic                          0.9705
+Mean absolute error                      0.0728
+Root mean squared error                  0.1407
+Relative absolute error                 23.2428 %
+Root relative squared error             35.5645 %
+Total Number of Instances              736     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   <-- classified as
+ 178   1   1   0   0 |   a = none
+   2 102   2   1   0 |   b = low
+   0   2 127   1   0 |   c = average
+   0   0   2 210   2 |   d = good
+   0   0   0   3 102 |   e = best
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         404               54.8913 %
+Incorrectly Classified Instances       332               45.1087 %
+Kappa statistic                          0.4217
+Mean absolute error                      0.2041
+Root mean squared error                  0.3375
+Relative absolute error                 65.1425 %
+Root relative squared error             85.2911 %
+Total Number of Instances              736     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   <-- classified as
+ 140  27   8   4   1 |   a = none
+  34  43  20   9   1 |   b = low
+   6  25  50  42   7 |   c = average
+   2   7  44 123  38 |   d = good
+   1   0   7  49  48 |   e = best
+
+ 3_20141002_2247_3014.mdl has been created for request

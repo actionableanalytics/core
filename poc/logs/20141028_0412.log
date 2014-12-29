@@ -1,0 +1,4 @@
+Tue Oct 28 04:12:25 CDT 2014 : Starting Training Process with 
+Model has been built using Classifier : weka_random_forest
+Testing...
+ /poc/output/20141028_0412_30902.out has been created for given training data

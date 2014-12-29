@@ -1,0 +1,5 @@
+Sun Oct 19 11:33:49 CDT 2014 : Starting Training Process with 
+Model has been built using Classifier : weka_j48
+Testing...
+ERROR : Requested Model Not Found 
+ /poc/output/20141019_1133_11008.out has been created for given training data

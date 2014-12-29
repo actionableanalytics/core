@@ -1,0 +1,17 @@
+Thu Oct 30 01:45:44 CDT 2014 : Predicting... 
+Model has been built using Classifier : weka_svm
+Testing...
+===Prediction Results ===
+   Instance no.                Predicted Class 
+              1                     1:diaporth 
+              2                     1:diaporth 
+              3                     2:charcoal 
+              4                     2:charcoal 
+              5                     2:charcoal 
+              6                     2:charcoal 
+              7                     2:charcoal 
+              8                     2:charcoal 
+              9                     2:charcoal 
+             10                     2:charcoal 
+                                               
+===End Of Results ===

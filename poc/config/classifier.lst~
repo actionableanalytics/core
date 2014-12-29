@@ -1,0 +1,4 @@
+1|weka_svm
+2|weka_j48
+3|weka_random_forest
+4|weka_NaiveBayes

@@ -1,0 +1,7 @@
+Tue Sep 23 04:34:11 UTC 2014 : Starting Training Process with 
+FOUND weka_svm for the 1 requested...evoking function
+java.lang.Exception: training and test set are not compatible
+	at weka.classifiers.Evaluation.evaluateModel(Evaluation.java:1109)
+	at weka.classifiers.Classifier.runClassifier(Classifier.java:315)
+	at weka.classifiers.functions.SMO.main(SMO.java:2138)
+ /poc/output/20140923_0434_54135.out has been created for given training data

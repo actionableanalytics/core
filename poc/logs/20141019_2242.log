@@ -1,0 +1,208 @@
+Sun Oct 19 22:42:30 CDT 2014
+Starting Model Build Process with Classifier : 1 and Test /poc/data/squash-unstored.arff 
+FOUND weka_svm for the 1 requested...evoking function
+
+Options: -V 10 -D 
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: ok, not_suitable
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.4153 * (normalized) site=P
+ +       0.4356 * (normalized) site=HB
+ +      -0.0203 * (normalized) site=LINC
+ +      -0.056  * (normalized) daf=30
+ +       0.7269 * (normalized) daf=40
+ +      -0.1516 * (normalized) daf=50
+ +      -0.2164 * (normalized) daf=60
+ +      -0.303  * (normalized) daf=70
+ +      -0.9094 * (normalized) fruit=1
+ +       1.064  * (normalized) fruit=2
+ +      -0.187  * (normalized) fruit=9
+ +       0.7449 * (normalized) fruit=10
+ +      -0.2962 * (normalized) fruit=7
+ +      -0.1954 * (normalized) fruit=11
+ +      -1      * (normalized) fruit=17
+ +       0.1081 * (normalized) fruit=3
+ +      -0.3503 * (normalized) fruit=4
+ +       0.4088 * (normalized) fruit=12
+ +      -0.7059 * (normalized) fruit=8
+ +       0.9811 * (normalized) fruit=13
+ +       0.6569 * (normalized) fruit=5
+ +       0.9843 * (normalized) fruit=15
+ +      -0.3934 * (normalized) fruit=6
+ +      -0.1457 * (normalized) fruit=20
+ +      -0.0786 * (normalized) fruit=14
+ +       0.7105 * (normalized) fruit=16
+ +      -0.6745 * (normalized) fruit=19
+ +      -0.7224 * (normalized) fruit=21
+ +      -0.4971 * (normalized) weight
+ +       0.4871 * (normalized) pene
+ +       0.5443 * (normalized) solids
+ +       0.0026 * (normalized) brix
+ +      -0.4771 * (normalized) a*
+ +      -0.6048 * (normalized) egdd
+ +      -0.2424 * (normalized) fgdd
+ +       0.1613 * (normalized) groundspot_a*
+ +      -0.5523 * (normalized) glucose
+ +      -0.678  * (normalized) fructose
+ +       0.0264 * (normalized) sucrose
+ +      -0.3721 * (normalized) total
+ +      -0.2042 * (normalized) glucose+fructose
+ +       0.6179 * (normalized) starch
+ +      -0.9953 * (normalized) sweetness
+ +      -0.8118 * (normalized) flavour
+ +      -0.834  * (normalized) dry/moist
+ +       1.0859 * (normalized) fibre
+ +      -0.6048 * (normalized) heat_input_emerg
+ +      -0.2424 * (normalized) heat_input_flower
+ +       0.9515
+
+Number of kernel evaluations: 941 (94.114% cached)
+
+Classifier for classes: ok, excellent
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.1324 * (normalized) site=P
+ +      -0.0807 * (normalized) site=HB
+ +      -0.0517 * (normalized) site=LINC
+ +       0      * (normalized) daf=30
+ +      -0.0974 * (normalized) daf=40
+ +       0.1485 * (normalized) daf=50
+ +      -0.002  * (normalized) daf=60
+ +      -0.0491 * (normalized) daf=70
+ +      -0.5743 * (normalized) fruit=2
+ +      -0.6186 * (normalized) fruit=9
+ +       0.7448 * (normalized) fruit=10
+ +      -0.0027 * (normalized) fruit=7
+ +      -0.1717 * (normalized) fruit=17
+ +      -0.1296 * (normalized) fruit=8
+ +       1.2701 * (normalized) fruit=13
+ +      -0.0974 * (normalized) fruit=6
+ +      -0.1564 * (normalized) fruit=20
+ +      -0.0491 * (normalized) fruit=14
+ +      -0.2166 * (normalized) fruit=16
+ +       0.0014 * (normalized) fruit=19
+ +       0.0273 * (normalized) weight
+ +       0.3241 * (normalized) pene
+ +       0.3416 * (normalized) solids
+ +       0.5381 * (normalized) brix
+ +       0.0942 * (normalized) a*
+ +       0.0587 * (normalized) egdd
+ +       0.1074 * (normalized) fgdd
+ +       0.0202 * (normalized) groundspot_a*
+ +      -0.1769 * (normalized) glucose
+ +      -0.0276 * (normalized) fructose
+ +       0.6905 * (normalized) sucrose
+ +       0.4743 * (normalized) total
+ +      -0.1081 * (normalized) glucose+fructose
+ +       0.1663 * (normalized) starch
+ +       0.6955 * (normalized) sweetness
+ +       0.7178 * (normalized) flavour
+ +       0.074  * (normalized) dry/moist
+ +      -0.0212 * (normalized) fibre
+ +       0.0587 * (normalized) heat_input_emerg
+ +       0.1074 * (normalized) heat_input_flower
+ -       3.158 
+
+Number of kernel evaluations: 227 (93.624% cached)
+
+Classifier for classes: not_suitable, excellent
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.1661 * (normalized) site=P
+ +       0.147  * (normalized) site=HB
+ +      -0.313  * (normalized) site=LINC
+ +      -0.145  * (normalized) daf=30
+ +      -0.2796 * (normalized) daf=40
+ +       0.5508 * (normalized) daf=50
+ +      -0.1262 * (normalized) daf=60
+ +      -0.145  * (normalized) fruit=2
+ +       0.1869 * (normalized) fruit=10
+ +       0      * (normalized) fruit=3
+ +       0.687  * (normalized) fruit=13
+ +      -0.2796 * (normalized) fruit=15
+ +      -0.4492 * (normalized) fruit=24
+ +      -0.1188 * (normalized) weight
+ +       0.1107 * (normalized) pene
+ +      -0.1639 * (normalized) solids
+ +       0.026  * (normalized) brix
+ +       0.1716 * (normalized) a*
+ +       0.2662 * (normalized) egdd
+ +       0.2702 * (normalized) fgdd
+ +       0.1942 * (normalized) groundspot_a*
+ +       0.215  * (normalized) glucose
+ +       0.3672 * (normalized) fructose
+ +       0.0306 * (normalized) sucrose
+ +       0.2075 * (normalized) total
+ +       0.2855 * (normalized) glucose+fructose
+ +      -0.3819 * (normalized) starch
+ +       0.492  * (normalized) sweetness
+ +       0.4342 * (normalized) flavour
+ +       0.4213 * (normalized) dry/moist
+ +      -0.074  * (normalized) fibre
+ +       0.2662 * (normalized) heat_input_emerg
+ +       0.2702 * (normalized) heat_input_flower
+ -       2.1202
+
+Number of kernel evaluations: 265 (80.06% cached)
+
+
+
+Time taken to build model: 0.19 seconds
+Time taken to test model on training data: 0.02 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances          52              100      %
+Incorrectly Classified Instances         0                0      %
+Kappa statistic                          1     
+Mean absolute error                      0.2222
+Root mean squared error                  0.2722
+Relative absolute error                 58.1301 %
+Root relative squared error             62.5301 %
+Total Number of Instances               52     
+
+
+=== Confusion Matrix ===
+
+  a  b  c   <-- classified as
+ 24  0  0 |  a = ok
+  0 24  0 |  b = not_suitable
+  0  0  4 |  c = excellent
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          40               76.9231 %
+Incorrectly Classified Instances        12               23.0769 %
+Kappa statistic                          0.5772
+Mean absolute error                      0.2778
+Root mean squared error                  0.3581
+Relative absolute error                 72.2891 %
+Root relative squared error             81.9185 %
+Total Number of Instances               52     
+
+
+=== Confusion Matrix ===
+
+  a  b  c   <-- classified as
+ 20  4  0 |  a = ok
+  5 19  0 |  b = not_suitable
+  2  1  1 |  c = excellent
+
+ 1_20141019_2242_14468.mld has been created for request

@@ -1,0 +1,53 @@
+Sun Nov 30 05:16:28 CST 2014
+Starting Model Build Process with Classifier : 3 and Test ../data/soybean.arff 
+FOUND weka_random_forest for the 3 requested...evoking function
+
+Options: -D 
+
+Random forest of 10 trees, each constructed while considering 6 random features.
+Out of bag error: 0.1611
+
+
+
+Time taken to build model: 0.47 seconds
+Time taken to test model on training data: 0.07 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         681               99.7072 %
+Incorrectly Classified Instances         2                0.2928 %
+Kappa statistic                          0.9968
+Mean absolute error                      0.0111
+Root mean squared error                  0.0467
+Relative absolute error                 11.5138 %
+Root relative squared error             21.2956 %
+Total Number of Instances              683     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s   <-- classified as
+ 20  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  a = diaporthe-stem-canker
+  0 20  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  b = charcoal-rot
+  0  0 20  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  c = rhizoctonia-root-rot
+  0  0  0 88  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  d = phytophthora-rot
+  0  0  0  0 44  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  e = brown-stem-rot
+  0  0  0  0  0 20  0  0  0  0  0  0  0  0  0  0  0  0  0 |  f = powdery-mildew
+  0  0  0  0  0  0 20  0  0  0  0  0  0  0  0  0  0  0  0 |  g = downy-mildew
+  0  0  0  0  0  0  0 92  0  0  0  0  0  0  0  0  0  0  0 |  h = brown-spot
+  0  0  0  0  0  0  0  0 20  0  0  0  0  0  0  0  0  0  0 |  i = bacterial-blight
+  0  0  0  0  0  0  0  0  0 20  0  0  0  0  0  0  0  0  0 |  j = bacterial-pustule
+  0  0  0  0  0  0  0  0  0  0 20  0  0  0  0  0  0  0  0 |  k = purple-seed-stain
+  0  0  0  0  0  0  0  0  0  0  0 44  0  0  0  0  0  0  0 |  l = anthracnose
+  0  0  0  0  0  0  0  0  0  0  0  0 20  0  0  0  0  0  0 |  m = phyllosticta-leaf-spot
+  0  0  0  0  0  0  0  0  0  0  0  0  0 91  0  0  0  0  0 |  n = alternarialeaf-spot
+  0  0  0  0  0  0  0  0  0  0  0  0  0  2 89  0  0  0  0 |  o = frog-eye-leaf-spot
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 15  0  0  0 |  p = diaporthe-pod-&-stem-blight
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 14  0  0 |  q = cyst-nematode
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 16  0 |  r = 2-4-d-injury
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  8 |  s = herbicide-injury
+
+ 3_20141130_0516_22513.mld has been created for request
+/poc/model//3_20141130_0516_22513.meta
+/poc/model//3_20141130_0516_22513.meta : Metadata for model has been created
+/poc/model//3_20141130_0516_22513.meta : Metadata for model has been created

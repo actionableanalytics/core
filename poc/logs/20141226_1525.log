@@ -1,0 +1,60 @@
+Fri Dec 26 15:25:30 NPT 2014 : Predicting... 
+Model has been built using Classifier : weka_j48
+Testing...
+java.io.IOException: number expected, read Token[@RELATION], line 74
+	at weka.core.converters.ArffLoader$ArffReader.errorMessage(ArffLoader.java:240)
+	at weka.core.converters.ArffLoader$ArffReader.getInstanceFull(ArffLoader.java:588)
+	at weka.core.converters.ArffLoader$ArffReader.getInstance(ArffLoader.java:423)
+	at weka.core.converters.ArffLoader$ArffReader.readInstance(ArffLoader.java:391)
+	at weka.core.converters.ArffLoader$ArffReader.readInstance(ArffLoader.java:376)
+	at weka.core.converters.ArffLoader.getNextInstance(ArffLoader.java:1054)
+	at weka.core.converters.ConverterUtils$DataSource.hasMoreElements(ConverterUtils.java:372)
+	at weka.classifiers.Evaluation.printClassifications(Evaluation.java:3237)
+	at weka.classifiers.Evaluation.evaluateModel(Evaluation.java:1229)
+	at weka.classifiers.Classifier.runClassifier(Classifier.java:315)
+	at weka.classifiers.trees.J48.main(J48.java:948)
+java.io.IOException: number expected, read Token[@RELATION], line 74
+	at weka.core.converters.ArffLoader$ArffReader.errorMessage(ArffLoader.java:240)
+	at weka.core.converters.ArffLoader$ArffReader.getInstanceFull(ArffLoader.java:588)
+	at weka.core.converters.ArffLoader$ArffReader.getInstance(ArffLoader.java:423)
+	at weka.core.converters.ArffLoader$ArffReader.readInstance(ArffLoader.java:391)
+	at weka.core.converters.ArffLoader$ArffReader.readInstance(ArffLoader.java:376)
+	at weka.core.converters.ArffLoader.getNextInstance(ArffLoader.java:1054)
+	at weka.core.converters.ConverterUtils$DataSource.hasMoreElements(ConverterUtils.java:372)
+	at weka.classifiers.Evaluation.evaluateModel(Evaluation.java:1305)
+	at weka.classifiers.Classifier.runClassifier(Classifier.java:315)
+	at weka.classifiers.trees.J48.main(J48.java:948)
+===Prediction Results ===
+   Instance no.                Predicted Class 
+                                               
+===End Of Results ===
+Fri Dec 26 15:25:39 NPT 2014 : Predicting... 
+Model has been built using Classifier : weka_j48
+Testing...
+java.io.IOException: number expected, read Token[@RELATION], line 74
+	at weka.core.converters.ArffLoader$ArffReader.errorMessage(ArffLoader.java:240)
+	at weka.core.converters.ArffLoader$ArffReader.getInstanceFull(ArffLoader.java:588)
+	at weka.core.converters.ArffLoader$ArffReader.getInstance(ArffLoader.java:423)
+	at weka.core.converters.ArffLoader$ArffReader.readInstance(ArffLoader.java:391)
+	at weka.core.converters.ArffLoader$ArffReader.readInstance(ArffLoader.java:376)
+	at weka.core.converters.ArffLoader.getNextInstance(ArffLoader.java:1054)
+	at weka.core.converters.ConverterUtils$DataSource.hasMoreElements(ConverterUtils.java:372)
+	at weka.classifiers.Evaluation.printClassifications(Evaluation.java:3237)
+	at weka.classifiers.Evaluation.evaluateModel(Evaluation.java:1229)
+	at weka.classifiers.Classifier.runClassifier(Classifier.java:315)
+	at weka.classifiers.trees.J48.main(J48.java:948)
+java.io.IOException: number expected, read Token[@RELATION], line 74
+	at weka.core.converters.ArffLoader$ArffReader.errorMessage(ArffLoader.java:240)
+	at weka.core.converters.ArffLoader$ArffReader.getInstanceFull(ArffLoader.java:588)
+	at weka.core.converters.ArffLoader$ArffReader.getInstance(ArffLoader.java:423)
+	at weka.core.converters.ArffLoader$ArffReader.readInstance(ArffLoader.java:391)
+	at weka.core.converters.ArffLoader$ArffReader.readInstance(ArffLoader.java:376)
+	at weka.core.converters.ArffLoader.getNextInstance(ArffLoader.java:1054)
+	at weka.core.converters.ConverterUtils$DataSource.hasMoreElements(ConverterUtils.java:372)
+	at weka.classifiers.Evaluation.evaluateModel(Evaluation.java:1305)
+	at weka.classifiers.Classifier.runClassifier(Classifier.java:315)
+	at weka.classifiers.trees.J48.main(J48.java:948)
+===Prediction Results ===
+   Instance no.                Predicted Class 
+                                               
+===End Of Results ===

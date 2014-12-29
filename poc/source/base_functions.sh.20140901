@@ -1,0 +1,137 @@
+############################################
+function _usage_
+{
+	echo "AA_CLASSIFY : Classification utility for AA POC"
+	echo "USAGE : Train - aa_classify -b <model_name> <file name> "
+	echo "TEST : aa_classify -t <model_name> <file name>"
+	echo "Models will be created in ${MODEL_DIR}"
+	echo "Logs will be created in ${LOG_DIR}"
+}
+
+# build_model
+# function usage: build_model <classifier_name> <input_file> <optional: output_file > 
+# This function reads the classifier list to locate the model requested and then calls it build_model_function
+function bm_weka_svm
+{
+# We can allow more flexibility allow optimizing parameters. Links:
+# http://weka.sourceforge.net/doc.dev/weka/classifiers/functions/SMO.html
+# http://research.microsoft.com/apps/pubs/?id=68391
+	p_id=`echo $$`
+	m_name=`date +%Y%m%d_%H%M_`${p_id}
+	java -Xmx1024m -cp ${SRC_DIR}/weka.jar weka.classifiers.functions.SMO -t $1 -V 10 -D   \
+	-d ${MODEL_DIR}/${m_name}.mld  >> ${LOG_FL} 2>&1
+	if [ ! -f ${MODEL_DIR}/${m_name}.mld ]
+	then
+		echo "Process has Failed to Create Model"
+	else
+		echo " ${m_name}.mdl has been created for request"  >> ${LOG_FL}
+		#Additional Code Needs to be added to update the model name to Database
+	fi
+}
+
+function build_model
+{
+	_found_=0
+	while read class_name;
+	do
+		c_id=`echo $class_name | cut -d "|" -f 1`
+		c_fname=`echo $class_name | cut -d "|" -f 2`
+		if [ "${c_id}" == "$1" ]
+		then
+			echo "FOUND $c_fname for the $c_id requested...evoking function"  >> ${LOG_FL}
+			$c_fname $2			
+			_found_=1
+			break
+		fi
+	done < ${CONFIG_DIR}/${CLASSIFY_LIST}
+	if [ $_found_ == 0 ]
+	then
+		echo "ERROR : Model - $1 Requested Not Found" >> ${LOG_FL}
+		exit 1
+	else
+		exit 0
+	fi
+}
+
+#Build Model Function for J48 Tree
+#There can be some work done on pruning
+#http://weka.sourceforge.net/doc.dev/weka/classifiers/trees/J48.html
+
+function bm_weka_j48
+{
+	p_id=`echo $$`
+        m_name=`date +%Y%m%d_%H%M_`${p_id}
+        java -Xmx1024m -cp ${SRC_DIR}/weka.jar weka.classifiers.trees.J48 -t $1 -x 10   \
+        -d ${MODEL_DIR}/${m_name}.mld   >> ${LOG_FL} 2>&1
+        if [ ! -f ${MODEL_DIR}/${m_name}.mld ]
+        then
+                echo "Process has Failed to Create Model"
+        else
+		echo " ${m_name}.mdl has been created for request" >> ${LOG_FL}
+	fi
+}
+
+
+#Build Model for Random forest
+#http://www.stat.berkeley.edu/~breiman/RandomForests/cc_home.htm
+#http://qr.ae/g9O3v : Quora Answer 
+function bm_weka_random_forest
+{
+	 p_id=`echo $$`
+        m_name=`date +%Y%m%d_%H%M_`${p_id}
+        java -Xmx1024m -cp ${SRC_DIR}/weka.jar weka.classifiers.trees.RandomForest -t $1 -D  \
+         -d ${MODEL_DIR}/${m_name}.mld  >> ${LOG_FL} 2>&1
+	if [ ! -f ${MODEL_DIR}/${m_name}.mld ]
+        then
+                echo "Process has Failed to Create Model"
+        else        
+		echo " ${m_name}.mdl has been created for request" >> ${LOG_FL}
+	fi
+}
+function bm_weka_NaiveBayes
+{
+# We can allow more flexibility allow optimizing parameters. Links:
+# http://weka.sourceforge.net/doc.dev/weka/classifiers/functions/SMO.html
+# http://research.microsoft.com/apps/pubs/?id=68391
+	p_id=`echo $$`
+	m_name=`date +%Y%m%d_%H%M_`${p_id}
+	java -Xmx1024m -cp ${SRC_DIR}/weka.jar weka.classifiers.bayes.NaiveBayes -t $1 -V 10 -D   \
+	-d ${MODEL_DIR}/${m_name}.mld  >> ${LOG_FL} 2>&1
+	if [ ! -f ${MODEL_DIR}/${m_name}.mld ]
+	then
+		echo "Process has Failed to Create Model"
+	else
+		echo " ${m_name}.mdl has been created for request"  >> ${LOG_FL}
+		#Additional Code Needs to be added to update the model name to Database
+	fi
+}
+function bm_weka_BayesNet
+{
+	 p_id=`echo $$`
+        m_name=`date +%Y%m%d_%H%M_`${p_id}
+        java -Xmx1024m -cp ${SRC_DIR}/weka.jar weka.classifiers.bayes.BayesNet -t $1 -D  \
+         -d ${MODEL_DIR}/${m_name}.mld  >> ${LOG_FL} 2>&1
+	if [ ! -f ${MODEL_DIR}/${m_name}.mld ]
+        then
+                echo "Process has Failed to Create Model"
+        else        
+		echo " ${m_name}.mdl has been created for request" >> ${LOG_FL}
+	fi
+}
+function bm_weka_BayesNet
+{
+# We can allow more flexibility allow optimizing parameters. Links:
+# http://weka.sourceforge.net/doc.dev/weka/classifiers/functions/SMO.html
+# http://research.microsoft.com/apps/pubs/?id=68391
+	p_id=`echo $$`
+	m_name=`date +%Y%m%d_%H%M_`${p_id}
+	java -Xmx1024m -cp ${SRC_DIR}/weka.jar weka.classifiers.bayes.BayesNet -t $1 -V 10 -D   \
+	-d ${MODEL_DIR}/${m_name}.mld  >> ${LOG_FL} 2>&1
+	if [ ! -f ${MODEL_DIR}/${m_name}.mld ]
+	then
+		echo "Process has Failed to Create Model"
+	else
+		echo " ${m_name}.mdl has been created for request"  >> ${LOG_FL}
+		#Additional Code Needs to be added to update the model name to Database
+	fi
+}

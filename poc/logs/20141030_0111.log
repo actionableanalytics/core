@@ -1,0 +1,117 @@
+Thu Oct 30 01:11:01 CDT 2014 : Starting Training Process with 
+Model has been built using Classifier : weka_svm
+Testing...
+
+Weka exception: Can't open file invalid stream header: 25204D65.
+
+General options:
+
+-h or -help
+	Output help information.
+-synopsis or -info
+	Output synopsis for classifier (use in conjunction  with -h)
+-t <name of training file>
+	Sets training file.
+-T <name of test file>
+	Sets test file. If missing, a cross-validation will be performed
+	on the training data.
+-c <class index>
+	Sets index of class attribute (default: last).
+-x <number of folds>
+	Sets number of folds for cross-validation (default: 10).
+-no-cv
+	Do not perform any cross validation.
+-split-percentage <percentage>
+	Sets the percentage for the train/test set split, e.g., 66.
+-preserve-order
+	Preserves the order in the percentage split.
+-s <random number seed>
+	Sets random number seed for cross-validation or percentage split
+	(default: 1).
+-m <name of file with cost matrix>
+	Sets file with cost matrix.
+-l <name of input file>
+	Sets model input file. In case the filename ends with '.xml',
+	a PMML file is loaded or, if that fails, options are loaded
+	from the XML file.
+-d <name of output file>
+	Sets model output file. In case the filename ends with '.xml',
+	only the options are saved to the XML file, not the model.
+-v
+	Outputs no statistics for training data.
+-o
+	Outputs statistics only, not the classifier.
+-i
+	Outputs detailed information-retrieval statistics for each class.
+-k
+	Outputs information-theoretic statistics.
+-p <attribute range>
+	Only outputs predictions for test instances (or the train
+	instances if no test instances provided and -no-cv is used),
+	along with attributes (0 for none).
+-distribution
+	Outputs the distribution instead of only the prediction
+	in conjunction with the '-p' option (only nominal classes).
+-r
+	Only outputs cumulative margin distribution.
+-xml filename | xml-string
+	Retrieves the options from the XML-data instead of the command line.
+-threshold-file <file>
+	The file to save the threshold data to.
+	The format is determined by the extensions, e.g., '.arff' for ARFF 
+	format or '.csv' for CSV.
+-threshold-label <label>
+	The class label to determine the threshold data for
+	(default is the first label)
+
+Options specific to weka.classifiers.functions.SMO:
+
+-D
+	If set, classifier is run in debug mode and
+	may output additional info to the console
+-no-checks
+	Turns off all checks - use with caution!
+	Turning them off assumes that data is purely numeric, doesn't
+	contain any missing values, and has a nominal class. Turning them
+	off also means that no header information will be stored if the
+	machine is linear. Finally, it also assumes that no instance has
+	a weight equal to 0.
+	(default: checks on)
+-C <double>
+	The complexity constant C. (default 1)
+-N
+	Whether to 0=normalize/1=standardize/2=neither. (default 0=normalize)
+-L <double>
+	The tolerance parameter. (default 1.0e-3)
+-P <double>
+	The epsilon for round-off error. (default 1.0e-12)
+-M
+	Fit logistic models to SVM outputs. 
+-V <double>
+	The number of folds for the internal
+	cross-validation. (default -1, use training data)
+-W <double>
+	The random number seed. (default 1)
+-K <classname and parameters>
+	The Kernel to use.
+	(default: weka.classifiers.functions.supportVector.PolyKernel)
+
+Options specific to kernel weka.classifiers.functions.supportVector.PolyKernel:
+
+-D
+	Enables debugging output (if available) to be printed.
+	(default: off)
+-no-checks
+	Turns off all checks - use with caution!
+	(default: checks on)
+-C <num>
+	The size of the cache (a prime number), 0 for full cache and 
+	-1 to turn it off.
+	(default: 250007)
+-E <num>
+	The Exponent to use.
+	(default: 1.0)
+-L
+	Use lower-order terms.
+	(default: no)
+

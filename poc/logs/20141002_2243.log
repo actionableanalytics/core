@@ -1,0 +1,946 @@
+Thu Oct  2 22:43:32 UTC 2014
+Starting Model Build Process with Classifier : 1 and Test /poc/data/eucalyptus.arff 
+FOUND weka_svm for the 1 requested...evoking function
+
+Options: -V 10 -D 
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: none, low
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.2839 * (normalized) Abbrev=Cra
+ +       0.1966 * (normalized) Abbrev=Cly
+ +      -0.1022 * (normalized) Abbrev=Nga
+ +      -0.0372 * (normalized) Abbrev=Wai
+ +      -0.2595 * (normalized) Abbrev=K81
+ +      -0.1838 * (normalized) Abbrev=Wak
+ +       0.0246 * (normalized) Abbrev=K82
+ +       0.1134 * (normalized) Abbrev=WSp
+ +       0.0998 * (normalized) Abbrev=K83
+ +       0.1348 * (normalized) Abbrev=Lon
+ +      -0.1363 * (normalized) Abbrev=Puk
+ +       0.3687 * (normalized) Abbrev=Paw
+ +       0.4697 * (normalized) Abbrev=K81a
+ +      -0.5288 * (normalized) Abbrev=Mor
+ +      -0.4439 * (normalized) Abbrev=Wen
+ +      -0.1202 * (normalized) Rep
+ +      -0.2449 * (normalized) Locality=Central_Hawkes_Bay
+ +       0.1966 * (normalized) Locality=Northern_Hawkes_Bay
+ +       0.0112 * (normalized) Locality=Southern_Hawkes_Bay
+ +      -0.0372 * (normalized) Locality=Central_Hawkes_Bay_(coastal)
+ +       0.3346 * (normalized) Locality=Central_Wairarapa
+ +      -0.1853 * (normalized) Locality=South_Wairarapa
+ +       0.3687 * (normalized) Locality=Southern_Hawkes_Bay_(coastal)
+ +      -0.4439 * (normalized) Locality=Central_Poverty_Bay
+ +       0.2839 * (normalized) Map_Ref=N135_382/137
+ +       0.1966 * (normalized) Map_Ref=N116_848/985
+ +      -0.1022 * (normalized) Map_Ref=N145_874/586
+ +      -0.0372 * (normalized) Map_Ref=N142_377/957
+ +       0.31   * (normalized) Map_Ref=N158_344/626
+ +      -0.1838 * (normalized) Map_Ref=N162_081/300
+ +       0.0246 * (normalized) Map_Ref=N158_343/625
+ +       0.1134 * (normalized) Map_Ref=N151_912/221
+ +       0.1348 * (normalized) Map_Ref=N162_097/424
+ +      -0.1363 * (normalized) Map_Ref=N166_063/197
+ +       0.3687 * (normalized) Map_Ref=N146_273/737
+ +      -0.5288 * (normalized) Map_Ref=N141_295/063
+ +      -0.4439 * (normalized) Map_Ref=N98_539/567
+ +       0.2839 * (normalized) Latitude=39__38
+ +       0.1966 * (normalized) Latitude=39__00
+ +      -0.1022 * (normalized) Latitude=40__11
+ +      -0.0372 * (normalized) Latitude=39__50
+ +       0.3346 * (normalized) Latitude=40__57
+ +      -0.1838 * (normalized) Latitude=41__12
+ +       0.1134 * (normalized) Latitude=40__36
+ +       0.1348 * (normalized) Latitude=41__08
+ +      -0.1363 * (normalized) Latitude=41__16
+ +       0.3687 * (normalized) Latitude=40__00
+ +      -0.5288 * (normalized) Latitude=39__43
+ +      -0.4439 * (normalized) Latitude=82__32
+ +      -0.0094 * (normalized) Altitude
+ +      -0.1097 * (normalized) Rainfall
+ +      -0.0257 * (normalized) Frosts
+ +      -0.6533 * (normalized) Year
+ +       0.3802 * (normalized) Sp=co
+ +       0.1898 * (normalized) Sp=fr
+ +      -0.2453 * (normalized) Sp=nd
+ +       0.6678 * (normalized) Sp=ni
+ +      -0.7749 * (normalized) Sp=ob
+ +       0.3675 * (normalized) Sp=ov
+ +      -1      * (normalized) Sp=pu
+ +       0.044  * (normalized) Sp=rd
+ +      -0.5993 * (normalized) Sp=ag
+ +      -0.0277 * (normalized) Sp=bxs
+ +       0.2929 * (normalized) Sp=br
+ +       0.7149 * (normalized) Sp=el
+ +      -0.2466 * (normalized) Sp=fa
+ +      -0.2481 * (normalized) Sp=jo
+ +       0.273  * (normalized) Sp=ka
+ +       0.0144 * (normalized) Sp=re
+ +      -0.0224 * (normalized) Sp=sm
+ +       0.8379 * (normalized) Sp=nc
+ +       0      * (normalized) Sp=am
+ +       0      * (normalized) Sp=cr
+ +      -0.6181 * (normalized) Sp=pa
+ +       0      * (normalized) Sp=ra
+ +       0      * (normalized) Sp=te
+ +      -0.4987 * (normalized) PMCno
+ +       0.0003 * (normalized) DBH
+ +       0.1459 * (normalized) Ht
+ +       1.9551 * (normalized) Surv
+ +       3.9433 * (normalized) Vig
+ +       0.3836 * (normalized) Ins_res
+ +       0.933  * (normalized) Stem_Fm
+ +       0.9113 * (normalized) Crown_Fm
+ +       0.7755 * (normalized) Brnch_Fm
+ -       3.8264
+
+Number of kernel evaluations: 33351 (94.345% cached)
+
+Classifier for classes: none, average
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.3978 * (normalized) Abbrev=Cra
+ +       0.0661 * (normalized) Abbrev=Nga
+ +      -0.0259 * (normalized) Abbrev=Wai
+ +      -0.1465 * (normalized) Abbrev=K81
+ +      -0.3433 * (normalized) Abbrev=Wak
+ +       0.0455 * (normalized) Abbrev=K82
+ +       0.2632 * (normalized) Abbrev=WSp
+ +      -0.1698 * (normalized) Abbrev=K83
+ +       0.2241 * (normalized) Abbrev=Lon
+ +       0.068  * (normalized) Abbrev=Puk
+ +       0.2606 * (normalized) Abbrev=Paw
+ +       0.4679 * (normalized) Abbrev=K81a
+ +      -0.6414 * (normalized) Abbrev=Mor
+ +      -0.4662 * (normalized) Abbrev=Wen
+ +       0      * (normalized) Abbrev=WSh
+ +       0.3161 * (normalized) Rep
+ +      -0.2436 * (normalized) Locality=Central_Hawkes_Bay
+ +       0.3293 * (normalized) Locality=Southern_Hawkes_Bay
+ +      -0.0259 * (normalized) Locality=Central_Hawkes_Bay_(coastal)
+ +       0.1971 * (normalized) Locality=Central_Wairarapa
+ +      -0.0513 * (normalized) Locality=South_Wairarapa
+ +       0.2606 * (normalized) Locality=Southern_Hawkes_Bay_(coastal)
+ +      -0.4662 * (normalized) Locality=Central_Poverty_Bay
+ +       0.3978 * (normalized) Map_Ref=N135_382/137
+ +       0.0661 * (normalized) Map_Ref=N145_874/586
+ +      -0.0259 * (normalized) Map_Ref=N142_377/957
+ +       0.1516 * (normalized) Map_Ref=N158_344/626
+ +      -0.3433 * (normalized) Map_Ref=N162_081/300
+ +       0.0455 * (normalized) Map_Ref=N158_343/625
+ +       0.2632 * (normalized) Map_Ref=N151_912/221
+ +       0.2241 * (normalized) Map_Ref=N162_097/424
+ +       0.068  * (normalized) Map_Ref=N166_063/197
+ +       0.2606 * (normalized) Map_Ref=N146_273/737
+ +      -0.6414 * (normalized) Map_Ref=N141_295/063
+ +      -0.4662 * (normalized) Map_Ref=N98_539/567
+ +       0      * (normalized) Map_Ref=N151_922/226
+ +       0.3978 * (normalized) Latitude=39__38
+ +       0.0661 * (normalized) Latitude=40__11
+ +      -0.0259 * (normalized) Latitude=39__50
+ +       0.1971 * (normalized) Latitude=40__57
+ +      -0.3433 * (normalized) Latitude=41__12
+ +       0.2632 * (normalized) Latitude=40__36
+ +       0.2241 * (normalized) Latitude=41__08
+ +       0.068  * (normalized) Latitude=41__16
+ +       0.2606 * (normalized) Latitude=40__00
+ +      -0.6414 * (normalized) Latitude=39__43
+ +      -0.4662 * (normalized) Latitude=82__32
+ +       0.0401 * (normalized) Altitude
+ +      -0.1785 * (normalized) Rainfall
+ +      -0.251  * (normalized) Frosts
+ +      -0.7887 * (normalized) Year
+ +       0.119  * (normalized) Sp=co
+ +       0.0908 * (normalized) Sp=fr
+ +       0.3678 * (normalized) Sp=nd
+ +       0.2632 * (normalized) Sp=ni
+ +      -0.2162 * (normalized) Sp=ob
+ +       0.1276 * (normalized) Sp=ov
+ +      -0.1375 * (normalized) Sp=pu
+ +      -0.438  * (normalized) Sp=rd
+ +      -0.506  * (normalized) Sp=ag
+ +       0.4937 * (normalized) Sp=bxs
+ +      -0.1373 * (normalized) Sp=br
+ +       0.1438 * (normalized) Sp=el
+ +       0.3463 * (normalized) Sp=fa
+ +       0.177  * (normalized) Sp=jo
+ +      -1.32   * (normalized) Sp=ka
+ +       0.179  * (normalized) Sp=re
+ +      -0.4395 * (normalized) Sp=sm
+ +      -0.7154 * (normalized) Sp=ro
+ +       0.7638 * (normalized) Sp=nc
+ +       0.8923 * (normalized) Sp=am
+ +       0.4845 * (normalized) Sp=cr
+ +      -0.5389 * (normalized) Sp=pa
+ +       0      * (normalized) Sp=ra
+ +       0      * (normalized) Sp=te
+ +       0.1584 * (normalized) PMCno
+ +       0.0026 * (normalized) DBH
+ +       0.5704 * (normalized) Ht
+ +       1.7797 * (normalized) Surv
+ +       4.3796 * (normalized) Vig
+ +       0.742  * (normalized) Ins_res
+ +       0.4745 * (normalized) Stem_Fm
+ +       1.2329 * (normalized) Crown_Fm
+ +       0.5281 * (normalized) Brnch_Fm
+ -       4.6505
+
+Number of kernel evaluations: 26796 (93.419% cached)
+
+Classifier for classes: none, good
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.1796 * (normalized) Abbrev=Cra
+ +       0.2603 * (normalized) Abbrev=Cly
+ +       0.2192 * (normalized) Abbrev=Nga
+ +      -0.1055 * (normalized) Abbrev=Wai
+ +      -0.0537 * (normalized) Abbrev=K81
+ +      -0.2094 * (normalized) Abbrev=Wak
+ +       0.1599 * (normalized) Abbrev=WSp
+ +       0.0945 * (normalized) Abbrev=K83
+ +       0.0755 * (normalized) Abbrev=Lon
+ +      -0.0474 * (normalized) Abbrev=Puk
+ +       0.3011 * (normalized) Abbrev=Paw
+ +       0      * (normalized) Abbrev=K81a
+ +      -0.4803 * (normalized) Abbrev=Mor
+ +      -0.3939 * (normalized) Abbrev=Wen
+ +       0.0404 * (normalized) Rep
+ +      -0.3006 * (normalized) Locality=Central_Hawkes_Bay
+ +       0.2603 * (normalized) Locality=Northern_Hawkes_Bay
+ +       0.3791 * (normalized) Locality=Southern_Hawkes_Bay
+ +      -0.1055 * (normalized) Locality=Central_Hawkes_Bay_(coastal)
+ +       0.0408 * (normalized) Locality=Central_Wairarapa
+ +      -0.1813 * (normalized) Locality=South_Wairarapa
+ +       0.3011 * (normalized) Locality=Southern_Hawkes_Bay_(coastal)
+ +      -0.3939 * (normalized) Locality=Central_Poverty_Bay
+ +       0.1796 * (normalized) Map_Ref=N135_382/137
+ +       0.2603 * (normalized) Map_Ref=N116_848/985
+ +       0.2192 * (normalized) Map_Ref=N145_874/586
+ +      -0.1055 * (normalized) Map_Ref=N142_377/957
+ +       0.0408 * (normalized) Map_Ref=N158_344/626
+ +      -0.2094 * (normalized) Map_Ref=N162_081/300
+ +       0.1599 * (normalized) Map_Ref=N151_912/221
+ +       0.0755 * (normalized) Map_Ref=N162_097/424
+ +      -0.0474 * (normalized) Map_Ref=N166_063/197
+ +       0.3011 * (normalized) Map_Ref=N146_273/737
+ +      -0.4803 * (normalized) Map_Ref=N141_295/063
+ +      -0.3939 * (normalized) Map_Ref=N98_539/567
+ +       0.1796 * (normalized) Latitude=39__38
+ +       0.2603 * (normalized) Latitude=39__00
+ +       0.2192 * (normalized) Latitude=40__11
+ +      -0.1055 * (normalized) Latitude=39__50
+ +       0.0408 * (normalized) Latitude=40__57
+ +      -0.2094 * (normalized) Latitude=41__12
+ +       0.1599 * (normalized) Latitude=40__36
+ +       0.0755 * (normalized) Latitude=41__08
+ +      -0.0474 * (normalized) Latitude=41__16
+ +       0.3011 * (normalized) Latitude=40__00
+ +      -0.4803 * (normalized) Latitude=39__43
+ +      -0.3939 * (normalized) Latitude=82__32
+ +       0.0234 * (normalized) Altitude
+ +      -0.0471 * (normalized) Rainfall
+ +      -0.1631 * (normalized) Frosts
+ +      -0.6358 * (normalized) Year
+ +       0      * (normalized) Sp=co
+ +       0.4256 * (normalized) Sp=fr
+ +       0.5061 * (normalized) Sp=nd
+ +       0.404  * (normalized) Sp=ni
+ +       0.0407 * (normalized) Sp=ob
+ +       0.3208 * (normalized) Sp=ov
+ +      -0.0126 * (normalized) Sp=pu
+ +      -0.6468 * (normalized) Sp=rd
+ +       0.0055 * (normalized) Sp=si
+ +       0.4724 * (normalized) Sp=bxs
+ +      -0.424  * (normalized) Sp=br
+ +       0.2741 * (normalized) Sp=fa
+ +      -0.921  * (normalized) Sp=ka
+ +       0.2391 * (normalized) Sp=re
+ +      -0.0759 * (normalized) Sp=sm
+ +      -0.1756 * (normalized) Sp=ro
+ +       0.5677 * (normalized) Sp=am
+ +      -1      * (normalized) Sp=pa
+ +      -0.001  * (normalized) PMCno
+ +       0.0022 * (normalized) DBH
+ +       0.9296 * (normalized) Ht
+ +       2.0148 * (normalized) Surv
+ +       3.8594 * (normalized) Vig
+ +       0.7568 * (normalized) Ins_res
+ +       0.5906 * (normalized) Stem_Fm
+ +       1.0137 * (normalized) Crown_Fm
+ +       0.366  * (normalized) Brnch_Fm
+ -       4.7697
+
+Number of kernel evaluations: 34554 (84.98% cached)
+
+Classifier for classes: none, best
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.0344 * (normalized) Abbrev=Cra
+ +       0.1187 * (normalized) Abbrev=Cly
+ +       0.0463 * (normalized) Abbrev=Wai
+ +       0.0323 * (normalized) Abbrev=K81
+ +      -0.1611 * (normalized) Abbrev=Wak
+ +       0.1244 * (normalized) Abbrev=K82
+ +       0.2592 * (normalized) Abbrev=WSp
+ +      -0.2013 * (normalized) Abbrev=K83
+ +       0.038  * (normalized) Abbrev=Lon
+ +      -0.015  * (normalized) Abbrev=Puk
+ +       0.2449 * (normalized) Abbrev=Paw
+ +       0.1668 * (normalized) Abbrev=K81a
+ +      -0.3932 * (normalized) Abbrev=Mor
+ +      -0.2945 * (normalized) Abbrev=Wen
+ +       0.2427 * (normalized) Rep
+ +      -0.3588 * (normalized) Locality=Central_Hawkes_Bay
+ +       0.1187 * (normalized) Locality=Northern_Hawkes_Bay
+ +       0.2592 * (normalized) Locality=Southern_Hawkes_Bay
+ +       0.0463 * (normalized) Locality=Central_Hawkes_Bay_(coastal)
+ +       0.1223 * (normalized) Locality=Central_Wairarapa
+ +      -0.1381 * (normalized) Locality=South_Wairarapa
+ +       0.2449 * (normalized) Locality=Southern_Hawkes_Bay_(coastal)
+ +      -0.2945 * (normalized) Locality=Central_Poverty_Bay
+ +       0.0344 * (normalized) Map_Ref=N135_382/137
+ +       0.1187 * (normalized) Map_Ref=N116_848/985
+ +       0.0463 * (normalized) Map_Ref=N142_377/957
+ +      -0.0021 * (normalized) Map_Ref=N158_344/626
+ +      -0.1611 * (normalized) Map_Ref=N162_081/300
+ +       0.1244 * (normalized) Map_Ref=N158_343/625
+ +       0.2592 * (normalized) Map_Ref=N151_912/221
+ +       0.038  * (normalized) Map_Ref=N162_097/424
+ +      -0.015  * (normalized) Map_Ref=N166_063/197
+ +       0.2449 * (normalized) Map_Ref=N146_273/737
+ +      -0.3932 * (normalized) Map_Ref=N141_295/063
+ +      -0.2945 * (normalized) Map_Ref=N98_539/567
+ +       0.0344 * (normalized) Latitude=39__38
+ +       0.1187 * (normalized) Latitude=39__00
+ +       0.0463 * (normalized) Latitude=39__50
+ +       0.1223 * (normalized) Latitude=40__57
+ +      -0.1611 * (normalized) Latitude=41__12
+ +       0.2592 * (normalized) Latitude=40__36
+ +       0.038  * (normalized) Latitude=41__08
+ +      -0.015  * (normalized) Latitude=41__16
+ +       0.2449 * (normalized) Latitude=40__00
+ +      -0.3932 * (normalized) Latitude=39__43
+ +      -0.2945 * (normalized) Latitude=82__32
+ +       0.013  * (normalized) Altitude
+ +       0.0086 * (normalized) Rainfall
+ +      -0.2054 * (normalized) Frosts
+ +      -0.4667 * (normalized) Year
+ +       0      * (normalized) Sp=co
+ +       0      * (normalized) Sp=fr
+ +       0.5974 * (normalized) Sp=nd
+ +       0      * (normalized) Sp=ni
+ +       0.3802 * (normalized) Sp=ob
+ +       0.0481 * (normalized) Sp=ov
+ +      -0.1934 * (normalized) Sp=pu
+ +      -0.6682 * (normalized) Sp=rd
+ +       0.023  * (normalized) Sp=si
+ +       0      * (normalized) Sp=ag
+ +       0      * (normalized) Sp=br
+ +       0.3633 * (normalized) Sp=fa
+ +       0      * (normalized) Sp=jo
+ +      -0.5362 * (normalized) Sp=ka
+ +       0.5029 * (normalized) Sp=re
+ +      -0.2087 * (normalized) Sp=sm
+ +      -0.2239 * (normalized) Sp=ro
+ +       0.5609 * (normalized) Sp=am
+ +      -0.6452 * (normalized) Sp=pa
+ +       0.3775 * (normalized) PMCno
+ +       0.0015 * (normalized) DBH
+ +       1.0243 * (normalized) Ht
+ +       1.7245 * (normalized) Surv
+ +       3.1419 * (normalized) Vig
+ +       0.5042 * (normalized) Ins_res
+ +       0.6083 * (normalized) Stem_Fm
+ +       0.8412 * (normalized) Crown_Fm
+ +       0.0384 * (normalized) Brnch_Fm
+ -       4.598 
+
+Number of kernel evaluations: 17740 (85.562% cached)
+
+Classifier for classes: low, average
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.1453 * (normalized) Abbrev=Cra
+ +      -0.1984 * (normalized) Abbrev=Cly
+ +      -0.0244 * (normalized) Abbrev=Nga
+ +      -0.1164 * (normalized) Abbrev=Wai
+ +      -0.0318 * (normalized) Abbrev=K81
+ +      -0.0075 * (normalized) Abbrev=Wak
+ +      -0.0915 * (normalized) Abbrev=K82
+ +       0.2229 * (normalized) Abbrev=WSp
+ +      -0.4077 * (normalized) Abbrev=K83
+ +      -0.0749 * (normalized) Abbrev=Lon
+ +       0.0787 * (normalized) Abbrev=Puk
+ +       0      * (normalized) Abbrev=Paw
+ +       0.5058 * (normalized) Abbrev=K81a
+ +       0      * (normalized) Abbrev=WSh
+ +       0.5778 * (normalized) Rep
+ +       0.1453 * (normalized) Locality=Central_Hawkes_Bay
+ +      -0.1984 * (normalized) Locality=Northern_Hawkes_Bay
+ +       0.1985 * (normalized) Locality=Southern_Hawkes_Bay
+ +      -0.1164 * (normalized) Locality=Central_Hawkes_Bay_(coastal)
+ +      -0.0252 * (normalized) Locality=Central_Wairarapa
+ +      -0.0037 * (normalized) Locality=South_Wairarapa
+ +       0      * (normalized) Locality=Southern_Hawkes_Bay_(coastal)
+ +       0.1453 * (normalized) Map_Ref=N135_382/137
+ +      -0.1984 * (normalized) Map_Ref=N116_848/985
+ +      -0.0244 * (normalized) Map_Ref=N145_874/586
+ +      -0.1164 * (normalized) Map_Ref=N142_377/957
+ +       0.0662 * (normalized) Map_Ref=N158_344/626
+ +      -0.0075 * (normalized) Map_Ref=N162_081/300
+ +      -0.0915 * (normalized) Map_Ref=N158_343/625
+ +       0.2229 * (normalized) Map_Ref=N151_912/221
+ +      -0.0749 * (normalized) Map_Ref=N162_097/424
+ +       0.0787 * (normalized) Map_Ref=N166_063/197
+ +       0      * (normalized) Map_Ref=N146_273/737
+ +       0      * (normalized) Map_Ref=N151_922/226
+ +       0.1453 * (normalized) Latitude=39__38
+ +      -0.1984 * (normalized) Latitude=39__00
+ +      -0.0244 * (normalized) Latitude=40__11
+ +      -0.1164 * (normalized) Latitude=39__50
+ +      -0.0252 * (normalized) Latitude=40__57
+ +      -0.0075 * (normalized) Latitude=41__12
+ +       0.2229 * (normalized) Latitude=40__36
+ +      -0.0749 * (normalized) Latitude=41__08
+ +       0.0787 * (normalized) Latitude=41__16
+ +       0      * (normalized) Latitude=40__00
+ +      -0.0072 * (normalized) Altitude
+ +      -0.0394 * (normalized) Rainfall
+ +      -0.2444 * (normalized) Frosts
+ +      -0.0758 * (normalized) Year
+ +       0.4405 * (normalized) Sp=co
+ +       0.169  * (normalized) Sp=fr
+ +      -0.8547 * (normalized) Sp=ma
+ +       1.023  * (normalized) Sp=nd
+ +      -0.0951 * (normalized) Sp=ni
+ +       0.434  * (normalized) Sp=ob
+ +       0.6705 * (normalized) Sp=ov
+ +       1      * (normalized) Sp=pu
+ +      -0.2237 * (normalized) Sp=rd
+ +       0      * (normalized) Sp=si
+ +      -0.1161 * (normalized) Sp=mn
+ +      -1      * (normalized) Sp=ag
+ +       0.646  * (normalized) Sp=bxs
+ +      -0.5615 * (normalized) Sp=br
+ +      -0.8912 * (normalized) Sp=el
+ +       0.318  * (normalized) Sp=fa
+ +      -0.3709 * (normalized) Sp=jo
+ +      -1.4992 * (normalized) Sp=ka
+ +       0.8081 * (normalized) Sp=re
+ +      -1      * (normalized) Sp=sm
+ +      -0.2586 * (normalized) Sp=ro
+ +      -0.0075 * (normalized) Sp=nc
+ +       1.3984 * (normalized) Sp=am
+ +      -0.5524 * (normalized) Sp=cr
+ +       0.5234 * (normalized) Sp=pa
+ +      -0.2545 * (normalized) PMCno
+ +       0.002  * (normalized) DBH
+ +       2.215  * (normalized) Ht
+ +       0.6431 * (normalized) Surv
+ +       4.494  * (normalized) Vig
+ +       1.0226 * (normalized) Ins_res
+ +       1.3404 * (normalized) Stem_Fm
+ +       0.5591 * (normalized) Crown_Fm
+ +       0.1109 * (normalized) Brnch_Fm
+ -       4.8962
+
+Number of kernel evaluations: 23207 (93.562% cached)
+
+Classifier for classes: low, good
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.1042 * (normalized) Abbrev=Cra
+ +      -0.026  * (normalized) Abbrev=Cly
+ +       0.1565 * (normalized) Abbrev=Nga
+ +      -0.1424 * (normalized) Abbrev=Wai
+ +       0.4625 * (normalized) Abbrev=K81
+ +      -0.0585 * (normalized) Abbrev=Wak
+ +      -0.3622 * (normalized) Abbrev=K82
+ +       0.0721 * (normalized) Abbrev=WSp
+ +      -0.1675 * (normalized) Abbrev=K83
+ +       0.0048 * (normalized) Abbrev=Lon
+ +      -0.0197 * (normalized) Abbrev=Puk
+ +       0.0963 * (normalized) Abbrev=Paw
+ +      -0.1201 * (normalized) Abbrev=K81a
+ +       0.1822 * (normalized) Rep
+ +       0.1042 * (normalized) Locality=Central_Hawkes_Bay
+ +      -0.026  * (normalized) Locality=Northern_Hawkes_Bay
+ +       0.2286 * (normalized) Locality=Southern_Hawkes_Bay
+ +      -0.1424 * (normalized) Locality=Central_Hawkes_Bay_(coastal)
+ +      -0.1873 * (normalized) Locality=Central_Wairarapa
+ +      -0.0734 * (normalized) Locality=South_Wairarapa
+ +       0.0963 * (normalized) Locality=Southern_Hawkes_Bay_(coastal)
+ +       0.1042 * (normalized) Map_Ref=N135_382/137
+ +      -0.026  * (normalized) Map_Ref=N116_848/985
+ +       0.1565 * (normalized) Map_Ref=N145_874/586
+ +      -0.1424 * (normalized) Map_Ref=N142_377/957
+ +       0.1748 * (normalized) Map_Ref=N158_344/626
+ +      -0.0585 * (normalized) Map_Ref=N162_081/300
+ +      -0.3622 * (normalized) Map_Ref=N158_343/625
+ +       0.0721 * (normalized) Map_Ref=N151_912/221
+ +       0.0048 * (normalized) Map_Ref=N162_097/424
+ +      -0.0197 * (normalized) Map_Ref=N166_063/197
+ +       0.0963 * (normalized) Map_Ref=N146_273/737
+ +       0.1042 * (normalized) Latitude=39__38
+ +      -0.026  * (normalized) Latitude=39__00
+ +       0.1565 * (normalized) Latitude=40__11
+ +      -0.1424 * (normalized) Latitude=39__50
+ +      -0.1873 * (normalized) Latitude=40__57
+ +      -0.0585 * (normalized) Latitude=41__12
+ +       0.0721 * (normalized) Latitude=40__36
+ +       0.0048 * (normalized) Latitude=41__08
+ +      -0.0197 * (normalized) Latitude=41__16
+ +       0.0963 * (normalized) Latitude=40__00
+ +      -0.0307 * (normalized) Altitude
+ +       0.0024 * (normalized) Rainfall
+ +       0.0369 * (normalized) Frosts
+ +      -0.1009 * (normalized) Year
+ +       0.0898 * (normalized) Sp=co
+ +       0.5341 * (normalized) Sp=fr
+ +      -0.8958 * (normalized) Sp=ma
+ +       1.0271 * (normalized) Sp=nd
+ +       0.0721 * (normalized) Sp=ni
+ +       0.6472 * (normalized) Sp=ob
+ +       0.6806 * (normalized) Sp=ov
+ +       0.5594 * (normalized) Sp=pu
+ +      -0.7774 * (normalized) Sp=rd
+ +       0      * (normalized) Sp=si
+ +      -0.1945 * (normalized) Sp=mn
+ +      -0.4414 * (normalized) Sp=ag
+ +       0.5999 * (normalized) Sp=bxs
+ +      -0.8094 * (normalized) Sp=br
+ +      -0.3289 * (normalized) Sp=el
+ +       0.4845 * (normalized) Sp=fa
+ +      -0.4125 * (normalized) Sp=jo
+ +      -1      * (normalized) Sp=ka
+ +       0.5696 * (normalized) Sp=re
+ +      -0.7561 * (normalized) Sp=sm
+ +       1.1281 * (normalized) Sp=am
+ +      -0.7765 * (normalized) Sp=cr
+ +      -0.0071 * (normalized) PMCno
+ +       0.0026 * (normalized) DBH
+ +       2.6395 * (normalized) Ht
+ +       1.3773 * (normalized) Surv
+ +       4.3884 * (normalized) Vig
+ +       0.6236 * (normalized) Ins_res
+ +       1.2246 * (normalized) Stem_Fm
+ +       1.0461 * (normalized) Crown_Fm
+ +       0.2941 * (normalized) Brnch_Fm
+ -       6.1805
+
+Number of kernel evaluations: 31594 (91.518% cached)
+
+Classifier for classes: low, best
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.0136 * (normalized) Abbrev=Cra
+ +      -0.0338 * (normalized) Abbrev=Cly
+ +       0.0572 * (normalized) Abbrev=Nga
+ +      -0.0547 * (normalized) Abbrev=Wai
+ +       0.4817 * (normalized) Abbrev=K81
+ +      -0.0161 * (normalized) Abbrev=Wak
+ +      -0.1261 * (normalized) Abbrev=K82
+ +       0.045  * (normalized) Abbrev=WSp
+ +      -0.6155 * (normalized) Abbrev=K83
+ +      -0.0654 * (normalized) Abbrev=Lon
+ +      -0.0057 * (normalized) Abbrev=Puk
+ +       0.0956 * (normalized) Abbrev=Paw
+ +       0.2242 * (normalized) Abbrev=K81a
+ +       1.0397 * (normalized) Rep
+ +       0.0136 * (normalized) Locality=Central_Hawkes_Bay
+ +      -0.0338 * (normalized) Locality=Northern_Hawkes_Bay
+ +       0.1022 * (normalized) Locality=Southern_Hawkes_Bay
+ +      -0.0547 * (normalized) Locality=Central_Hawkes_Bay_(coastal)
+ +      -0.0357 * (normalized) Locality=Central_Wairarapa
+ +      -0.0872 * (normalized) Locality=South_Wairarapa
+ +       0.0956 * (normalized) Locality=Southern_Hawkes_Bay_(coastal)
+ +       0.0136 * (normalized) Map_Ref=N135_382/137
+ +      -0.0338 * (normalized) Map_Ref=N116_848/985
+ +       0.0572 * (normalized) Map_Ref=N145_874/586
+ +      -0.0547 * (normalized) Map_Ref=N142_377/957
+ +       0.0905 * (normalized) Map_Ref=N158_344/626
+ +      -0.0161 * (normalized) Map_Ref=N162_081/300
+ +      -0.1261 * (normalized) Map_Ref=N158_343/625
+ +       0.045  * (normalized) Map_Ref=N151_912/221
+ +      -0.0654 * (normalized) Map_Ref=N162_097/424
+ +      -0.0057 * (normalized) Map_Ref=N166_063/197
+ +       0.0956 * (normalized) Map_Ref=N146_273/737
+ +       0.0136 * (normalized) Latitude=39__38
+ +      -0.0338 * (normalized) Latitude=39__00
+ +       0.0572 * (normalized) Latitude=40__11
+ +      -0.0547 * (normalized) Latitude=39__50
+ +      -0.0357 * (normalized) Latitude=40__57
+ +      -0.0161 * (normalized) Latitude=41__12
+ +       0.045  * (normalized) Latitude=40__36
+ +      -0.0654 * (normalized) Latitude=41__08
+ +      -0.0057 * (normalized) Latitude=41__16
+ +       0.0956 * (normalized) Latitude=40__00
+ +      -0.0252 * (normalized) Altitude
+ +       0.019  * (normalized) Rainfall
+ +      -0.0448 * (normalized) Frosts
+ +      -0.2082 * (normalized) Year
+ +      -0.4474 * (normalized) Sp=co
+ +       0.0494 * (normalized) Sp=fr
+ +      -0.1846 * (normalized) Sp=ma
+ +       0.6503 * (normalized) Sp=nd
+ +       0      * (normalized) Sp=ni
+ +       0.6984 * (normalized) Sp=ob
+ +       0.171  * (normalized) Sp=ov
+ +       0.3105 * (normalized) Sp=pu
+ +      -0.3264 * (normalized) Sp=rd
+ +      -0.3118 * (normalized) Sp=si
+ +      -0.2283 * (normalized) Sp=mn
+ +      -0.3097 * (normalized) Sp=ag
+ +      -0.0119 * (normalized) Sp=bxs
+ +      -0.3949 * (normalized) Sp=br
+ +      -0.4537 * (normalized) Sp=el
+ +       0.2996 * (normalized) Sp=fa
+ +      -0.1776 * (normalized) Sp=jo
+ +      -0.6845 * (normalized) Sp=ka
+ +       0.8163 * (normalized) Sp=re
+ +      -0.2635 * (normalized) Sp=sm
+ +      -0.1168 * (normalized) Sp=nc
+ +       1.2807 * (normalized) Sp=am
+ +      -0.3651 * (normalized) Sp=cr
+ +       0.0751 * (normalized) PMCno
+ +       0.0013 * (normalized) DBH
+ +       2.4509 * (normalized) Ht
+ +       0.8746 * (normalized) Surv
+ +       3.3007 * (normalized) Vig
+ +       0.7659 * (normalized) Ins_res
+ +       0.8689 * (normalized) Stem_Fm
+ +       0.8685 * (normalized) Crown_Fm
+ +       0.1213 * (normalized) Brnch_Fm
+ -       5.2974
+
+Number of kernel evaluations: 13687 (91.849% cached)
+
+Classifier for classes: average, good
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.0205 * (normalized) Abbrev=Cra
+ +       0.2794 * (normalized) Abbrev=Cly
+ +       0.2172 * (normalized) Abbrev=Nga
+ +      -0.1597 * (normalized) Abbrev=Wai
+ +       0.4828 * (normalized) Abbrev=K81
+ +      -0.0156 * (normalized) Abbrev=Wak
+ +      -0.4188 * (normalized) Abbrev=K82
+ +      -0.0396 * (normalized) Abbrev=WSp
+ +      -0.2246 * (normalized) Abbrev=K83
+ +       0.1534 * (normalized) Abbrev=Lon
+ +      -0.2149 * (normalized) Abbrev=Puk
+ +       0.1227 * (normalized) Abbrev=Paw
+ +      -0.0683 * (normalized) Abbrev=K81a
+ +      -0.0934 * (normalized) Abbrev=WSh
+ +       0.4607 * (normalized) Rep
+ +      -0.0205 * (normalized) Locality=Central_Hawkes_Bay
+ +       0.2794 * (normalized) Locality=Northern_Hawkes_Bay
+ +       0.0842 * (normalized) Locality=Southern_Hawkes_Bay
+ +      -0.1597 * (normalized) Locality=Central_Hawkes_Bay_(coastal)
+ +      -0.229  * (normalized) Locality=Central_Wairarapa
+ +      -0.077  * (normalized) Locality=South_Wairarapa
+ +       0.1227 * (normalized) Locality=Southern_Hawkes_Bay_(coastal)
+ +      -0.0205 * (normalized) Map_Ref=N135_382/137
+ +       0.2794 * (normalized) Map_Ref=N116_848/985
+ +       0.2172 * (normalized) Map_Ref=N145_874/586
+ +      -0.1597 * (normalized) Map_Ref=N142_377/957
+ +       0.1899 * (normalized) Map_Ref=N158_344/626
+ +      -0.0156 * (normalized) Map_Ref=N162_081/300
+ +      -0.4188 * (normalized) Map_Ref=N158_343/625
+ +      -0.0396 * (normalized) Map_Ref=N151_912/221
+ +       0.1534 * (normalized) Map_Ref=N162_097/424
+ +      -0.2149 * (normalized) Map_Ref=N166_063/197
+ +       0.1227 * (normalized) Map_Ref=N146_273/737
+ +      -0.0934 * (normalized) Map_Ref=N151_922/226
+ +      -0.0205 * (normalized) Latitude=39__38
+ +       0.2794 * (normalized) Latitude=39__00
+ +       0.2172 * (normalized) Latitude=40__11
+ +      -0.1597 * (normalized) Latitude=39__50
+ +      -0.229  * (normalized) Latitude=40__57
+ +      -0.0156 * (normalized) Latitude=41__12
+ +      -0.133  * (normalized) Latitude=40__36
+ +       0.1534 * (normalized) Latitude=41__08
+ +      -0.2149 * (normalized) Latitude=41__16
+ +       0.1227 * (normalized) Latitude=40__00
+ +      -0.0018 * (normalized) Altitude
+ +       0.072  * (normalized) Rainfall
+ +       0.2819 * (normalized) Frosts
+ +      -0.2121 * (normalized) Year
+ +      -0.0966 * (normalized) Sp=co
+ +       0.4646 * (normalized) Sp=fr
+ +       0.8813 * (normalized) Sp=nd
+ +       0.3398 * (normalized) Sp=ni
+ +       0.7541 * (normalized) Sp=ob
+ +       0.155  * (normalized) Sp=ov
+ +       0.0878 * (normalized) Sp=pu
+ +      -0.6422 * (normalized) Sp=rd
+ +       0.5981 * (normalized) Sp=si
+ +      -0.2628 * (normalized) Sp=bxs
+ +      -0.6474 * (normalized) Sp=br
+ +      -0.5992 * (normalized) Sp=el
+ +       0.2857 * (normalized) Sp=fa
+ +      -1      * (normalized) Sp=jo
+ +       0.2369 * (normalized) Sp=re
+ +      -0.3268 * (normalized) Sp=nc
+ +       1      * (normalized) Sp=am
+ +      -1.1687 * (normalized) Sp=cr
+ +      -0.0596 * (normalized) Sp=pa
+ +      -0.1958 * (normalized) PMCno
+ +       0.0018 * (normalized) DBH
+ +       2.8583 * (normalized) Ht
+ +       1.8636 * (normalized) Surv
+ +       3.5469 * (normalized) Vig
+ +       0.3793 * (normalized) Ins_res
+ +       1.3919 * (normalized) Stem_Fm
+ +       1.716  * (normalized) Crown_Fm
+ +       0.2323 * (normalized) Brnch_Fm
+ -       6.7783
+
+Number of kernel evaluations: 49109 (89.975% cached)
+
+Classifier for classes: average, best
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0      * (normalized) Abbrev=Cra
+ +       0.0776 * (normalized) Abbrev=Cly
+ +       0.047  * (normalized) Abbrev=Nga
+ +       0      * (normalized) Abbrev=Wai
+ +       0.39   * (normalized) Abbrev=K81
+ +       0.0786 * (normalized) Abbrev=Wak
+ +      -0.1342 * (normalized) Abbrev=K82
+ +      -0.0628 * (normalized) Abbrev=WSp
+ +      -0.459  * (normalized) Abbrev=K83
+ +      -0.0523 * (normalized) Abbrev=Lon
+ +      -0.2097 * (normalized) Abbrev=Puk
+ +       0.1945 * (normalized) Abbrev=Paw
+ +       0.2283 * (normalized) Abbrev=K81a
+ +      -0.0981 * (normalized) Abbrev=WSh
+ +       0.7644 * (normalized) Rep
+ +       0      * (normalized) Locality=Central_Hawkes_Bay
+ +       0.0776 * (normalized) Locality=Northern_Hawkes_Bay
+ +      -0.1139 * (normalized) Locality=Southern_Hawkes_Bay
+ +       0      * (normalized) Locality=Central_Hawkes_Bay_(coastal)
+ +       0.0251 * (normalized) Locality=Central_Wairarapa
+ +      -0.1834 * (normalized) Locality=South_Wairarapa
+ +       0.1945 * (normalized) Locality=Southern_Hawkes_Bay_(coastal)
+ +       0      * (normalized) Map_Ref=N135_382/137
+ +       0.0776 * (normalized) Map_Ref=N116_848/985
+ +       0.047  * (normalized) Map_Ref=N145_874/586
+ +       0      * (normalized) Map_Ref=N142_377/957
+ +       0.1594 * (normalized) Map_Ref=N158_344/626
+ +       0.0786 * (normalized) Map_Ref=N162_081/300
+ +      -0.1342 * (normalized) Map_Ref=N158_343/625
+ +      -0.0628 * (normalized) Map_Ref=N151_912/221
+ +      -0.0523 * (normalized) Map_Ref=N162_097/424
+ +      -0.2097 * (normalized) Map_Ref=N166_063/197
+ +       0.1945 * (normalized) Map_Ref=N146_273/737
+ +      -0.0981 * (normalized) Map_Ref=N151_922/226
+ +       0      * (normalized) Latitude=39__38
+ +       0.0776 * (normalized) Latitude=39__00
+ +       0.047  * (normalized) Latitude=40__11
+ +       0      * (normalized) Latitude=39__50
+ +       0.0251 * (normalized) Latitude=40__57
+ +       0.0786 * (normalized) Latitude=41__12
+ +      -0.1609 * (normalized) Latitude=40__36
+ +      -0.0523 * (normalized) Latitude=41__08
+ +      -0.2097 * (normalized) Latitude=41__16
+ +       0.1945 * (normalized) Latitude=40__00
+ +      -0.1119 * (normalized) Altitude
+ +       0.0074 * (normalized) Rainfall
+ +       0.1218 * (normalized) Frosts
+ +      -0.2373 * (normalized) Year
+ +      -0.1875 * (normalized) Sp=co
+ +      -0.2631 * (normalized) Sp=fr
+ +       0.3972 * (normalized) Sp=nd
+ +      -0.1119 * (normalized) Sp=ni
+ +       0.3645 * (normalized) Sp=ob
+ +       0.1538 * (normalized) Sp=ov
+ +       0.0895 * (normalized) Sp=pu
+ +      -0.1892 * (normalized) Sp=bxs
+ +      -0.3014 * (normalized) Sp=br
+ +      -0.5743 * (normalized) Sp=el
+ +       0.4088 * (normalized) Sp=fa
+ +      -0.8051 * (normalized) Sp=jo
+ +       0.1902 * (normalized) Sp=re
+ +       0.8284 * (normalized) Sp=am
+ +      -1      * (normalized) Sp=cr
+ +       1      * (normalized) Sp=pa
+ +       0.1084 * (normalized) PMCno
+ +       0.003  * (normalized) DBH
+ +       2.5539 * (normalized) Ht
+ +       1.9932 * (normalized) Surv
+ +       3.8577 * (normalized) Vig
+ +       0.5678 * (normalized) Ins_res
+ +       0.9862 * (normalized) Stem_Fm
+ +       1.7504 * (normalized) Crown_Fm
+ +       0.6146 * (normalized) Brnch_Fm
+ -       7.8775
+
+Number of kernel evaluations: 22498 (88.917% cached)
+
+Classifier for classes: good, best
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.0569 * (normalized) Abbrev=Cra
+ +       0.0799 * (normalized) Abbrev=Cly
+ +      -0.1247 * (normalized) Abbrev=Nga
+ +       0.1839 * (normalized) Abbrev=Wai
+ +       0.1164 * (normalized) Abbrev=K81
+ +       0.055  * (normalized) Abbrev=Wak
+ +       0.109  * (normalized) Abbrev=K82
+ +       0.0162 * (normalized) Abbrev=WSp
+ +      -0.695  * (normalized) Abbrev=K83
+ +      -0.0619 * (normalized) Abbrev=Lon
+ +      -0.1276 * (normalized) Abbrev=Puk
+ +       0.0613 * (normalized) Abbrev=Paw
+ +       0.6937 * (normalized) Abbrev=K81a
+ +      -0.2494 * (normalized) Abbrev=WSh
+ +       1.5586 * (normalized) Rep
+ +      -0.0569 * (normalized) Locality=Central_Hawkes_Bay
+ +       0.0799 * (normalized) Locality=Northern_Hawkes_Bay
+ +      -0.3578 * (normalized) Locality=Southern_Hawkes_Bay
+ +       0.1839 * (normalized) Locality=Central_Hawkes_Bay_(coastal)
+ +       0.2241 * (normalized) Locality=Central_Wairarapa
+ +      -0.1345 * (normalized) Locality=South_Wairarapa
+ +       0.0613 * (normalized) Locality=Southern_Hawkes_Bay_(coastal)
+ +      -0.0569 * (normalized) Map_Ref=N135_382/137
+ +       0.0799 * (normalized) Map_Ref=N116_848/985
+ +      -0.1247 * (normalized) Map_Ref=N145_874/586
+ +       0.1839 * (normalized) Map_Ref=N142_377/957
+ +       0.115  * (normalized) Map_Ref=N158_344/626
+ +       0.055  * (normalized) Map_Ref=N162_081/300
+ +       0.109  * (normalized) Map_Ref=N158_343/625
+ +       0.0162 * (normalized) Map_Ref=N151_912/221
+ +      -0.0619 * (normalized) Map_Ref=N162_097/424
+ +      -0.1276 * (normalized) Map_Ref=N166_063/197
+ +       0.0613 * (normalized) Map_Ref=N146_273/737
+ +      -0.2494 * (normalized) Map_Ref=N151_922/226
+ +      -0.0569 * (normalized) Latitude=39__38
+ +       0.0799 * (normalized) Latitude=39__00
+ +      -0.1247 * (normalized) Latitude=40__11
+ +       0.1839 * (normalized) Latitude=39__50
+ +       0.2241 * (normalized) Latitude=40__57
+ +       0.055  * (normalized) Latitude=41__12
+ +      -0.2331 * (normalized) Latitude=40__36
+ +      -0.0619 * (normalized) Latitude=41__08
+ +      -0.1276 * (normalized) Latitude=41__16
+ +       0.0613 * (normalized) Latitude=40__00
+ +      -0.0396 * (normalized) Altitude
+ +      -0.0112 * (normalized) Rainfall
+ +      -0.0431 * (normalized) Frosts
+ +      -0.2957 * (normalized) Year
+ +      -0.1653 * (normalized) Sp=co
+ +      -0.2744 * (normalized) Sp=fr
+ +       0.3673 * (normalized) Sp=nd
+ +      -0.2399 * (normalized) Sp=ni
+ +       0.439  * (normalized) Sp=ob
+ +       0.2993 * (normalized) Sp=ov
+ +       0.6007 * (normalized) Sp=pu
+ +      -0.4383 * (normalized) Sp=rd
+ +      -0.298  * (normalized) Sp=si
+ +      -0.8052 * (normalized) Sp=mn
+ +      -1      * (normalized) Sp=bxs
+ +       1      * (normalized) Sp=br
+ +      -0.8239 * (normalized) Sp=el
+ +      -0.1353 * (normalized) Sp=fa
+ +       0.0747 * (normalized) Sp=re
+ +       0.3993 * (normalized) Sp=am
+ +       1      * (normalized) Sp=pa
+ +      -0.4211 * (normalized) PMCno
+ +       1.004  * (normalized) DBH
+ +       1.4695 * (normalized) Ht
+ +       0.8806 * (normalized) Surv
+ +       2.6805 * (normalized) Vig
+ +       0.3009 * (normalized) Ins_res
+ +       0.8416 * (normalized) Stem_Fm
+ +       1.5591 * (normalized) Crown_Fm
+ +       0.7361 * (normalized) Brnch_Fm
+ -       6.0727
+
+Number of kernel evaluations: 39025 (91.25% cached)
+
+
+
+Time taken to build model: 3.3 seconds
+Time taken to test model on training data: 0.33 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         556               75.5435 %
+Incorrectly Classified Instances       180               24.4565 %
+Kappa statistic                          0.6854
+Mean absolute error                      0.252 
+Root mean squared error                  0.3344
+Relative absolute error                 80.4382 %
+Root relative squared error             84.4935 %
+Total Number of Instances              736     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   <-- classified as
+ 164  15   1   0   0 |   a = none
+  16  79  12   0   0 |   b = low
+   3  16  80  30   1 |   c = average
+   1   4  16 173  20 |   d = good
+   0   0   6  39  60 |   e = best
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         474               64.4022 %
+Incorrectly Classified Instances       262               35.5978 %
+Kappa statistic                          0.5421
+Mean absolute error                      0.2586
+Root mean squared error                  0.3441
+Relative absolute error                 82.5696 %
+Root relative squared error             86.9454 %
+Total Number of Instances              736     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   <-- classified as
+ 151  25   3   1   0 |   a = none
+  27  56  20   4   0 |   b = low
+   4  26  59  39   2 |   c = average
+   2   4  25 154  29 |   d = good
+   0   0   7  44  54 |   e = best
+
+ 1_20141002_2243_2921.mdl has been created for request

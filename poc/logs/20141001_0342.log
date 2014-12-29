@@ -1,0 +1,13 @@
+Wed Oct  1 03:42:15 UTC 2014
+Starting Model Build Process with Classifier : 2 and Test /poc/data/ERA.arff 
+FOUND weka_j48 for the 2 requested...evoking function
+weka.core.UnsupportedAttributeTypeException: weka.classifiers.trees.j48.C45PruneableClassifierTree: Cannot handle numeric class!
+	at weka.core.Capabilities.test(Capabilities.java:954)
+	at weka.core.Capabilities.test(Capabilities.java:1110)
+	at weka.core.Capabilities.test(Capabilities.java:1023)
+	at weka.core.Capabilities.testWithFail(Capabilities.java:1302)
+	at weka.classifiers.trees.j48.C45PruneableClassifierTree.buildClassifier(C45PruneableClassifierTree.java:116)
+	at weka.classifiers.trees.J48.buildClassifier(J48.java:236)
+	at weka.classifiers.Evaluation.evaluateModel(Evaluation.java:1149)
+	at weka.classifiers.Classifier.runClassifier(Classifier.java:315)
+	at weka.classifiers.trees.J48.main(J48.java:948)

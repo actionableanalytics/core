@@ -1,0 +1,31 @@
+Fri Dec 26 15:03:19 NPT 2014 : Predicting... 
+Model has been built using Classifier : weka_j48
+Testing...
+===Prediction Results ===
+   Instance no.                Predicted Class 
+              1                     1:diaporth 
+              2                     1:diaporth 
+              3                     2:charcoal 
+              4                     2:charcoal 
+              5                     2:charcoal 
+              6                     2:charcoal 
+              7                     2:charcoal 
+              8                     2:charcoal 
+              9                     2:charcoal 
+             10                     2:charcoal 
+                                               
+===End Of Results ===
+Fri Dec 26 15:03:35 NPT 2014 : Predicting... 
+Model has been built using Classifier : weka_j48
+Testing...
+===Prediction Results ===
+   Instance no.                Predicted Class 
+                                               
+===End Of Results ===
+Fri Dec 26 15:03:52 NPT 2014 : Predicting... 
+Model has been built using Classifier : weka_j48
+Testing...
+===Prediction Results ===
+   Instance no.                Predicted Class 
+                                               
+===End Of Results ===

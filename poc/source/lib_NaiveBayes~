@@ -1,0 +1,66 @@
+#Build Model Function for naivebayes 
+#There can be some work done on pruning
+#http://weka.sourceforge.net/doc.dev/weka/classifiers/bayes/naivebayes.html
+function pr_weka_NaiveBayes {
+         p_id=`echo $$`
+        m_name=`date +%Y%m%d_%H%M_`${p_id}
+        #Get the name of  Meta File
+        meta_fl=`echo $1 |sed 's/\.mld/\.meta/g'`
+        #Create name of temoporary arff file
+        base_fl=`basename $2`
+        tmp_f_nm=`echo ${base_fl} | cut -d "." -f 1-1`
+        tmp_f_nm=`echo "${tmp_f_nm}.arff"`
+        #1. Append the meta file
+        cat ${MODEL_DIR}/${meta_fl} > ${TMP_DIR}/${tmp_f_nm}
+        awk '{print $0",?"}' $2 >> ${TMP_DIR}/${tmp_f_nm}
+        java -Xmx512m -cp ${SRC_DIR}/weka.jar weka.classifiers.bayes.NaiveBayes -l ${MODEL_DIR}/${1} -T ${TMP_DIR}/${tmp_f_nm} -p 0  -i  \
+           2>> ${LOG_FL} > ${TMP_DIR}/${m_name}.out
+        if [ ! -s ${TMP_DIR}/${m_name}.out ]
+        then
+                echo "Process has Failed to Generate Predictions"
+        else
+                rm -v ${TMP_DIR}/${tmp_f_nm}
+                print_results ${TMP_DIR}/${m_name}.out
+                #Additional Code Needs to be added to update the model name to Database
+        fi
+}
+
+function bm_weka_NaiveBayes
+{
+        p_id=`echo $$`
+        m_name=2_`date +%Y%m%d_%H%M_`${p_id}
+        java -Xmx1024m -cp ${SRC_DIR}/weka.jar weka.classifiers.bayes.NaiveBayes -t $1 -no-cv   \
+        -d ${MODEL_DIR}/${m_name}.mld   >> ${LOG_FL} 2>&1
+        if [ ! -f ${MODEL_DIR}/${m_name}.mld ]
+        then
+                echo "Process has Failed to Create Model"
+        else
+                echo " ${m_name}.mld has been created for request" >> ${LOG_FL}
+                extract_metadata ${m_name}.mld $1 >> ${LOG_FL}
+        fi
+}
+
+function tm_weka_NaiveBayes
+{
+        p_id=`echo $$`
+        m_name=`date +%Y%m%d_%H%M_`${p_id}
+        if [  -f ${MODEL_DIR}/${1} ]
+        then
+                echo "Model Requested to Prediction Found..Proceeding.."
+        else
+                echo "ERROR : Requested Model Not Found " | tee -a ${LOG_FL}
+        fi
+        java -Xmx512m -cp ${SRC_DIR}/weka.jar weka.classifiers.bayes.NaiveBayes -l ${MODEL_DIR}/${1} -T $2 -p 0  -i  \
+ 2>> ${LOG_FL} | tee ${OP_DIR}/${m_name}.out
+
+        if [ ! -f ${OP_DIR}/${m_name}.out ]
+        then
+                echo "Process has Failed to Generate Predictions"
+        else
+                echo " ${OP_DIR}/${m_name}.out has been created for given training data" | tee -a ${LOG_FL}
+                #Additional Code Needs to be added to update the model name to Database
+                print_eval_summ ${OP_DIR}/${m_name}.out
+        fi
+
+}
+

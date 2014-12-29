@@ -1,0 +1,63 @@
+Sun Oct 19 22:29:18 CDT 2014
+Starting Model Build Process with Classifier : 2 and Test /poc/data/squash-unstored.arff 
+FOUND weka_j48 for the 2 requested...evoking function
+
+J48 pruned tree
+------------------
+
+sweetness <= 496.5
+|   pene <= 3.2: ok (3.0)
+|   pene > 3.2: not_suitable (27.0/3.0)
+sweetness > 496.5
+|   flavour <= 773.8: ok (17.0)
+|   flavour > 773.8: excellent (5.0/1.0)
+
+Number of Leaves  : 	4
+
+Size of the tree : 	7
+
+
+Time taken to build model: 0.07 seconds
+Time taken to test model on training data: 0.03 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances          48               92.3077 %
+Incorrectly Classified Instances         4                7.6923 %
+Kappa statistic                          0.8663
+Mean absolute error                      0.0889
+Root mean squared error                  0.2108
+Relative absolute error                 23.252  %
+Root relative squared error             48.4356 %
+Total Number of Instances               52     
+
+
+=== Confusion Matrix ===
+
+  a  b  c   <-- classified as
+ 20  3  1 |  a = ok
+  0 24  0 |  b = not_suitable
+  0  0  4 |  c = excellent
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          43               82.6923 %
+Incorrectly Classified Instances         9               17.3077 %
+Kappa statistic                          0.6992
+Mean absolute error                      0.1495
+Root mean squared error                  0.332 
+Relative absolute error                 38.9157 %
+Root relative squared error             75.9529 %
+Total Number of Instances               52     
+
+
+=== Confusion Matrix ===
+
+  a  b  c   <-- classified as
+ 18  4  2 |  a = ok
+  2 22  0 |  b = not_suitable
+  1  0  3 |  c = excellent
+
+ 2_20141019_2229_13365.mld has been created for request

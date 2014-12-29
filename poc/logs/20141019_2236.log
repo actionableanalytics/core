@@ -1,0 +1,55 @@
+Sun Oct 19 22:36:06 CDT 2014
+Starting Model Build Process with Classifier : 3 and Test /poc/data/squash-unstored.arff 
+FOUND weka_random_forest for the 3 requested...evoking function
+
+Options: -D 
+
+Random forest of 10 trees, each constructed while considering 5 random features.
+Out of bag error: 0.2885
+
+
+
+Time taken to build model: 0.12 seconds
+Time taken to test model on training data: 0.03 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances          52              100      %
+Incorrectly Classified Instances         0                0      %
+Kappa statistic                          1     
+Mean absolute error                      0.0978
+Root mean squared error                  0.1431
+Relative absolute error                 25.5916 %
+Root relative squared error             32.8711 %
+Total Number of Instances               52     
+
+
+=== Confusion Matrix ===
+
+  a  b  c   <-- classified as
+ 24  0  0 |  a = ok
+  0 24  0 |  b = not_suitable
+  0  0  4 |  c = excellent
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          34               65.3846 %
+Incorrectly Classified Instances        18               34.6154 %
+Kappa statistic                          0.3571
+Mean absolute error                      0.2942
+Root mean squared error                  0.3744
+Relative absolute error                 76.5627 %
+Root relative squared error             85.6642 %
+Total Number of Instances               52     
+
+
+=== Confusion Matrix ===
+
+  a  b  c   <-- classified as
+ 18  6  0 |  a = ok
+  8 16  0 |  b = not_suitable
+  3  1  0 |  c = excellent
+
+ 3_20141019_2236_13971.mld has been created for request
